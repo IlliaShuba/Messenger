@@ -5,11 +5,11 @@ import 'package:matrix/matrix.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 import 'package:vrouter/vrouter.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/utils/fluffy_share.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:brigadachat/config/app_config.dart';
+import 'package:brigadachat/utils/fluffy_share.dart';
+import 'package:brigadachat/utils/platform_infos.dart';
+import 'package:brigadachat/widgets/avatar.dart';
+import 'package:brigadachat/widgets/matrix.dart';
 import 'settings.dart';
 
 class SettingsView extends StatelessWidget {

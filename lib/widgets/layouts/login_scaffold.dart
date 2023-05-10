@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/config/themes.dart';
+import 'package:brigadachat/config/app_config.dart';
+import 'package:brigadachat/config/themes.dart';
 
 class LoginScaffold extends StatelessWidget {
   final Widget body;
@@ -37,10 +37,6 @@ class LoginScaffold extends StatelessWidget {
     if (isMobileMode) return scaffold;
     return Container(
       decoration: const BoxDecoration(
-        image: DecorationImage(
-          image: AssetImage('assets/login_wallpaper.png'),
-          fit: BoxFit.cover,
-        ),
       ),
       child: Center(
         child: Padding(

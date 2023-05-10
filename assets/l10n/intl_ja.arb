@@ -672,8 +672,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "brigadachat": "brigadachat",
+  "@brigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -857,7 +857,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "inviteText": "{username}がFluffyChatにあなたを招待しました. \n1. FluffyChatをインストールしてください: https://fluffychat.im \n2. 新しくアカウントを作成するかサインインしてください\n3. 招待リンクを開いてください: {link}",
+  "inviteText": "{username}がbrigadachatにあなたを招待しました. \n1. brigadachatをインストールしてください: https://brigadachat.im \n2. 新しくアカウントを作成するかサインインしてください\n3. 招待リンクを開いてください: {link}",
   "@inviteText": {
     "type": "text",
     "placeholders": {
@@ -1024,8 +1024,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 FluffyChatに新しいメッセージがあります",
-  "@newMessageInFluffyChat": {
+  "newMessageInbrigadachat": "💬 brigadachatに新しいメッセージがあります",
+  "@newMessageInbrigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -1598,7 +1598,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "brigadachat",
   "@title": {
     "description": "Title for the application",
     "type": "text",
@@ -1952,7 +1952,7 @@
   },
   "updateNow": "バックグラウンドでアップデートを開始",
   "@updateNow": {},
-  "updateAvailable": "FluffyChatのアップデートが利用可能",
+  "updateAvailable": "brigadachatのアップデートが利用可能",
   "@updateAvailable": {},
   "commandHint_create": "空のグループチャットを作成\n暗号化を無効にするには、--no-encryption を使用",
   "@commandHint_create": {
@@ -2250,9 +2250,9 @@
   "@storeSecurlyOnThisDevice": {},
   "whyIsThisMessageEncrypted": "このメッセージが読めない理由",
   "@whyIsThisMessageEncrypted": {},
-  "otherCallingPermissions": "マイク、カメラ、その他FluffyChatの権限",
+  "otherCallingPermissions": "マイク、カメラ、その他brigadachatの権限",
   "@otherCallingPermissions": {},
-  "appearOnTopDetails": "アプリをトップに表示できるようにする（すでに通話アカウントとしてFluffychatを設定している場合は必要ありません）",
+  "appearOnTopDetails": "アプリをトップに表示できるようにする（すでに通話アカウントとしてbrigadachatを設定している場合は必要ありません）",
   "@appearOnTopDetails": {},
   "loginWithOneClick": "ワンクリックでサインイン",
   "@loginWithOneClick": {},
@@ -2414,7 +2414,7 @@
   },
   "noSearchResult": "一致する検索結果がありません。",
   "@noSearchResult": {},
-  "dehydrateShare": "これはあなたの非公開の FluffyChat エクスポートです。なくさないようにして、公開せず保管してください。",
+  "dehydrateShare": "これはあなたの非公開の brigadachat エクスポートです。なくさないようにして、公開せず保管してください。",
   "@dehydrateShare": {},
   "locationPermissionDeniedNotice": "位置情報の権限が拒否されました。位置情報を共有できるように許可してください。",
   "@locationPermissionDeniedNotice": {

@@ -4,19 +4,19 @@ import 'package:animations/animations.dart';
 import 'package:flutter_gen/gen_l10n/l10n.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/pages/chat_list/chat_list.dart';
-import 'package:fluffychat/pages/chat_list/chat_list_item.dart';
-import 'package:fluffychat/pages/chat_list/search_title.dart';
-import 'package:fluffychat/pages/chat_list/space_view.dart';
-import 'package:fluffychat/pages/chat_list/start_chat_fab.dart';
-import 'package:fluffychat/pages/chat_list/stories_header.dart';
-import 'package:fluffychat/utils/adaptive_bottom_sheet.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/client_stories_extension.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/utils/stream_extension.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/profile_bottom_sheet.dart';
-import 'package:fluffychat/widgets/public_room_bottom_sheet.dart';
+import 'package:brigadachat/pages/chat_list/chat_list.dart';
+import 'package:brigadachat/pages/chat_list/chat_list_item.dart';
+import 'package:brigadachat/pages/chat_list/search_title.dart';
+import 'package:brigadachat/pages/chat_list/space_view.dart';
+import 'package:brigadachat/pages/chat_list/start_chat_fab.dart';
+import 'package:brigadachat/pages/chat_list/stories_header.dart';
+import 'package:brigadachat/utils/adaptive_bottom_sheet.dart';
+import 'package:brigadachat/utils/matrix_sdk_extensions/client_stories_extension.dart';
+import 'package:brigadachat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:brigadachat/utils/stream_extension.dart';
+import 'package:brigadachat/widgets/avatar.dart';
+import 'package:brigadachat/widgets/profile_bottom_sheet.dart';
+import 'package:brigadachat/widgets/public_room_bottom_sheet.dart';
 import '../../config/themes.dart';
 import '../../widgets/connection_status_header.dart';
 import '../../widgets/matrix.dart';
@@ -186,33 +186,11 @@ class ChatListViewBody extends StatelessWidget {
                             ),
                           ),
                         ),
-                        if (controller.isSearchMode)
-                          SearchTitle(
-                            title: L10n.of(context)!.chats,
-                            icon: const Icon(Icons.forum_outlined),
-                          ),
-                        if (rooms.isEmpty && !controller.isSearchMode) ...[
-                          Padding(
-                            padding: const EdgeInsets.all(32.0),
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
-                                Image.asset(
-                                  'assets/start_chat.png',
-                                  height: 256,
-                                ),
-                                const Divider(height: 1),
-                              ],
-                            ),
-                          ),
-                          Center(
-                            child: StartChatFloatingActionButton(
-                              activeFilter: controller.activeFilter,
-                              roomsIsEmpty: true,
-                              scrolledToTop: controller.scrolledToTop,
-                            ),
-                          ),
-                        ],
+                      if (controller.isSearchMode)
+                        SearchTitle(
+                          title: L10n.of(context)!.chats,
+                          icon: const Icon(Icons.forum_outlined),
+                        ),
                       ],
                     ),
                   ),

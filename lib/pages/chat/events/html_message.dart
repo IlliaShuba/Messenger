@@ -4,7 +4,7 @@ import 'package:flutter_gen/gen_l10n/l10n.dart';
 import 'package:flutter_matrix_html/flutter_html.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:brigadachat/widgets/matrix.dart';
 import '../../../config/app_config.dart';
 import '../../../config/setting_keys.dart';
 import '../../../utils/matrix_sdk_extensions/matrix_locals.dart';

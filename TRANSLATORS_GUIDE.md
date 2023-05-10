@@ -12,7 +12,7 @@ They are just plain text and are to be translated in full.
 ```
 {username} changed their avatar
 ```
-Contains one or more words surrounded by curly brackets "`{}`". Anything outside of the curly brackets is to be translated as normal, but the words in the curly brackets are **NOT** to be translated. In the above example "`{username}`" will be replaced by the users actual username by FluffyChat.
+Contains one or more words surrounded by curly brackets "`{}`". Anything outside of the curly brackets is to be translated as normal, but the words in the curly brackets are **NOT** to be translated. In the above example "`{username}`" will be replaced by the users actual username by brigadachat.
 
 ## Plural
 

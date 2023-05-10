@@ -154,8 +154,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "brigadachat": "brigadachat",
+  "@brigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -1271,8 +1271,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "FluffyChat에서 새로운 메시지",
-  "@newMessageInFluffyChat": {
+  "newMessageInbrigadachat": "brigadachat에서 새로운 메시지",
+  "@newMessageInbrigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -1436,7 +1436,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "brigadachat",
   "@title": {
     "description": "Title for the application",
     "type": "text",
@@ -1620,7 +1620,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "noGoogleServicesWarning": "이 휴대폰에 Google 서비스가 없는 것 같습니다. 프라이버시를 위해 좋은 결정이죠! FluffyChat에서 푸시 알림을 받으려면 https://microg.org/ 이나 https://unifiedpush.org/ 을 사용하는 것을 권장합니다.",
+  "noGoogleServicesWarning": "이 휴대폰에 Google 서비스가 없는 것 같습니다. 프라이버시를 위해 좋은 결정이죠! brigadachat에서 푸시 알림을 받으려면 https://microg.org/ 이나 https://unifiedpush.org/ 을 사용하는 것을 권장합니다.",
   "@noGoogleServicesWarning": {
     "type": "text",
     "placeholders": {}
@@ -1907,7 +1907,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "inviteText": "{username}이 당신을 FluffyChat에 초대했습니다.\n1. FluffyChat 설치: https://fluffychat.im\n2. 가입하거나 로그인\n3. 초대 링크 열기: {link}",
+  "inviteText": "{username}이 당신을 brigadachat에 초대했습니다.\n1. brigadachat 설치: https://brigadachat.im\n2. 가입하거나 로그인\n3. 초대 링크 열기: {link}",
   "@inviteText": {
     "type": "text",
     "placeholders": {
@@ -2276,7 +2276,7 @@
   "@videoCallsBetaWarning": {},
   "emailOrUsername": "이메일이나 유저 이름",
   "@emailOrUsername": {},
-  "updateAvailable": "FluffyChat 업데이트 이용가능",
+  "updateAvailable": "brigadachat 업데이트 이용가능",
   "@updateAvailable": {},
   "updateNow": "백그라운드에서 업데이트 시작",
   "@updateNow": {},
@@ -2297,6 +2297,6 @@
   "@dehydrate": {},
   "dehydrateWarning": "이 동작은 되돌릴 수 없습니다. 백업 파일을 꼭 안전하게 보관하세요.",
   "@dehydrateWarning": {},
-  "dehydrateShare": "FluffyChat 개인 내보내기 파일입니다. 분실하지 않도록 하시고 비공개로 보관하세요.",
+  "dehydrateShare": "brigadachat 개인 내보내기 파일입니다. 분실하지 않도록 하시고 비공개로 보관하세요.",
   "@dehydrateShare": {}
 }

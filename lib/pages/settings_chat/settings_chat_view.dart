@@ -4,13 +4,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/l10n.dart';
 import 'package:vrouter/vrouter.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/config/setting_keys.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/utils/voip/callkeep_manager.dart';
-import 'package:fluffychat/widgets/layouts/max_width_body.dart';
-import 'package:fluffychat/widgets/matrix.dart';
-import 'package:fluffychat/widgets/settings_switch_list_tile.dart';
+import 'package:brigadachat/config/app_config.dart';
+import 'package:brigadachat/config/setting_keys.dart';
+import 'package:brigadachat/utils/platform_infos.dart';
+import 'package:brigadachat/utils/voip/callkeep_manager.dart';
+import 'package:brigadachat/widgets/layouts/max_width_body.dart';
+import 'package:brigadachat/widgets/matrix.dart';
+import 'package:brigadachat/widgets/settings_switch_list_tile.dart';
 import 'settings_chat.dart';
 
 class SettingsChatView extends StatelessWidget {

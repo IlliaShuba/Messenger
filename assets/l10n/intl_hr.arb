@@ -773,8 +773,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "brigadachat": "brigadachat",
+  "@brigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -958,7 +958,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "inviteText": "{username} te je pozvao/la u FluffyChat. \n1. Instaliraj FluffyChat: https://fluffychat.im \n2. Registriraj ili prijavi se \n3. Otvori poveznicu poziva: {link}",
+  "inviteText": "{username} te je pozvao/la u brigadachat. \n1. Instaliraj brigadachat: https://brigadachat.im \n2. Registriraj ili prijavi se \n3. Otvori poveznicu poziva: {link}",
   "@inviteText": {
     "type": "text",
     "placeholders": {
@@ -1132,8 +1132,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Nova poruka u FluffyChatu",
-  "@newMessageInFluffyChat": {
+  "newMessageInbrigadachat": "💬 Nova poruka u brigadachatu",
+  "@newMessageInbrigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -1167,7 +1167,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "noGoogleServicesWarning": "Čini se da na mobitelu nemaš google usluge. To je dobra odluka za tvoju privatnost! Za automatsko primanje obavijesti u FluffyChatu preporučujemo koristiti https://microg.org/ or https://unifiedpush.org/.",
+  "noGoogleServicesWarning": "Čini se da na mobitelu nemaš google usluge. To je dobra odluka za tvoju privatnost! Za automatsko primanje obavijesti u brigadachatu preporučujemo koristiti https://microg.org/ or https://unifiedpush.org/.",
   "@noGoogleServicesWarning": {
     "type": "text",
     "placeholders": {}
@@ -1765,7 +1765,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "brigadachat",
   "@title": {
     "description": "Title for the application",
     "type": "text",
@@ -2296,7 +2296,7 @@
   "@dehydrateTor": {},
   "emojis": "Emojiji",
   "@emojis": {},
-  "indexedDbErrorLong": "Spremište poruka nažalost nije standarno uključena u privatnom modusu.\nOtvori stranicu\n - about:config\n - postavi dom.indexedDB.privateBrowsing.enabled na true\nFluffyChat se inače neće moći pokrenuti.",
+  "indexedDbErrorLong": "Spremište poruka nažalost nije standarno uključena u privatnom modusu.\nOtvori stranicu\n - about:config\n - postavi dom.indexedDB.privateBrowsing.enabled na true\nbrigadachat se inače neće moći pokrenuti.",
   "@indexedDbErrorLong": {},
   "storeSecurlyOnThisDevice": "Spremi sigurno na ovom uređaju",
   "@storeSecurlyOnThisDevice": {},
@@ -2381,7 +2381,7 @@
   },
   "dehydrate": "Izvezi sesiju i izbriši uređaj",
   "@dehydrate": {},
-  "dehydrateShare": "Ovo je izvoz tvog privatnog FluffyChata. Pazi da ga ne izgubiš i zadrži ga privatnim.",
+  "dehydrateShare": "Ovo je izvoz tvog privatnog brigadachata. Pazi da ga ne izgubiš i zadrži ga privatnim.",
   "@dehydrateShare": {},
   "enableAutoBackups": "Uključi automatsko spremanje sigurnosnih kopija",
   "@enableAutoBackups": {},
@@ -2424,7 +2424,7 @@
   "@user": {},
   "custom": "Prilagođeno",
   "@custom": {},
-  "updateAvailable": "Dostupna je nova FluffyChat verzija",
+  "updateAvailable": "Dostupna je nova brigadachat verzija",
   "@updateAvailable": {},
   "updateNow": "Pokreni aktuliziranje u pozadini",
   "@updateNow": {},
@@ -2487,7 +2487,7 @@
   "@foregroundServiceRunning": {},
   "callingPermissions": "Dozvole za pozivanje",
   "@callingPermissions": {},
-  "callingAccountDetails": "Omogućuje FluffyChatu korištenje izvorne Android aplikacije za pozivanje.",
+  "callingAccountDetails": "Omogućuje brigadachatu korištenje izvorne Android aplikacije za pozivanje.",
   "@callingAccountDetails": {},
   "callingAccount": "Račun za pozivanje",
   "@callingAccount": {},
@@ -2512,7 +2512,7 @@
   "@enterRoom": {},
   "screenSharingDetail": "Dijeliš svoj ekran u FuffyChatu",
   "@screenSharingDetail": {},
-  "appearOnTopDetails": "Omogućuje prikaz aplikacije ispred drugih (nije potrebno ako je FluffyChat već postavljen kao račun za pozivanje)",
+  "appearOnTopDetails": "Omogućuje prikaz aplikacije ispred drugih (nije potrebno ako je brigadachat već postavljen kao račun za pozivanje)",
   "@appearOnTopDetails": {},
   "appearOnTop": "Prikaz ispred drugih",
   "@appearOnTop": {},
@@ -2522,7 +2522,7 @@
   "@allSpaces": {},
   "screenSharingTitle": "dijeljenje ekrana",
   "@screenSharingTitle": {},
-  "otherCallingPermissions": "Mikrofon, kamera i druge FluffyChat dozvole",
+  "otherCallingPermissions": "Mikrofon, kamera i druge brigadachat dozvole",
   "@otherCallingPermissions": {},
   "enterSpace": "Uđi u prostor",
   "@enterSpace": {},

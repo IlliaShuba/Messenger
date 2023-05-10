@@ -5,9 +5,9 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/config/themes.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_file_extension.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:brigadachat/config/themes.dart';
+import 'package:brigadachat/utils/matrix_sdk_extensions/matrix_file_extension.dart';
+import 'package:brigadachat/widgets/matrix.dart';
 
 class MxcImage extends StatefulWidget {
   final Uri? uri;

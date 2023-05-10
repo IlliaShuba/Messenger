@@ -11,10 +11,10 @@ import 'package:path_provider/path_provider.dart';
 import 'package:universal_html/html.dart' as html;
 import 'package:vrouter/vrouter.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:brigadachat/config/app_config.dart';
+import 'package:brigadachat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:brigadachat/utils/platform_infos.dart';
+import 'package:brigadachat/widgets/matrix.dart';
 
 extension LocalNotificationsExtension on MatrixState {
   void showLocalNotification(EventUpdate eventUpdate) async {

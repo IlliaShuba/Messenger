@@ -11,9 +11,9 @@ import 'package:future_loading_dialog/future_loading_dialog.dart';
 import 'package:intl/intl.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/config/setting_keys.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_file_extension.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:brigadachat/config/setting_keys.dart';
+import 'package:brigadachat/utils/matrix_sdk_extensions/matrix_file_extension.dart';
+import 'package:brigadachat/widgets/matrix.dart';
 import '../bootstrap/bootstrap_dialog.dart';
 import 'settings_security_view.dart';
 
@@ -188,7 +188,7 @@ class SettingsSecurityController extends State<SettingsSecurity> {
         );
 
         final exportFileName =
-            'fluffychat-export-${DateFormat(DateFormat.YEAR_MONTH_DAY).format(DateTime.now())}.fluffybackup';
+            'brigadachat-export-${DateFormat(DateFormat.YEAR_MONTH_DAY).format(DateTime.now())}.fluffybackup';
 
         return MatrixFile(bytes: exportBytes, name: exportFileName);
       },

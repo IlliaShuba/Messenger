@@ -3,13 +3,16 @@ import 'package:flutter/material.dart';
 
 import 'package:collection/collection.dart';
 import 'package:flutter_app_lock/flutter_app_lock.dart';
+import 'package:flutter_windowmanager/flutter_windowmanager.dart';
+
 import 'package:matrix/matrix.dart';
 import 'package:universal_html/html.dart' as html;
 
-import 'package:fluffychat/utils/client_manager.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
+
+import 'package:brigadachat/utils/client_manager.dart';
+import 'package:brigadachat/utils/platform_infos.dart';
 import 'utils/background_push.dart';
-import 'widgets/fluffy_chat_app.dart';
+import 'widgets/brigada_chat_app.dart';
 import 'widgets/lock_screen.dart';
 
 void main() async {
@@ -26,6 +29,10 @@ void main() async {
   await firstClient?.roomsLoading;
   await firstClient?.accountDataLoading;
 
+  //Screenshot
+  await FlutterWindowManager.addFlags(FlutterWindowManager.FLAG_SECURE);
+
+
   if (PlatformInfos.isMobile) {
     BackgroundPush.clientOnly(clients.first);
   }
@@ -39,14 +46,14 @@ void main() async {
   runApp(
     PlatformInfos.isMobile
         ? AppLock(
-            builder: (args) => FluffyChatApp(
+            builder: (args) => brigadachatApp(
               clients: clients,
               queryParameters: queryParameters,
             ),
             lockScreen: const LockScreen(),
             enabled: false,
           )
-        : FluffyChatApp(
+        : brigadachatApp(
             clients: clients,
             queryParameters: queryParameters,
           ),

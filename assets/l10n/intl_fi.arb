@@ -12,7 +12,7 @@
             "min": {}
         }
     },
-    "about": "Tietoa FluffyChatista",
+    "about": "Tietoa brigadachatista",
     "@about": {
         "type": "text",
         "placeholders": {}
@@ -776,7 +776,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "inviteText": "{username} kutsui sinutFluffyChattiin. \n1. Asenna FluffyChat osoitteesta: https://fluffychat.im \n2. Rekisteröidy tai kirjaudu sisään\n3. Avaa kutsulinkki: {link}",
+    "inviteText": "{username} kutsui sinutbrigadachattiin. \n1. Asenna brigadachat osoitteesta: https://brigadachat.im \n2. Rekisteröidy tai kirjaudu sisään\n3. Avaa kutsulinkki: {link}",
     "@inviteText": {
         "type": "text",
         "placeholders": {
@@ -923,8 +923,8 @@
         "type": "text",
         "placeholders": {}
     },
-    "newMessageInFluffyChat": "💬 Uusi viesti FluffyChätissä",
-    "@newMessageInFluffyChat": {
+    "newMessageInbrigadachat": "💬 Uusi viesti FluffyChätissä",
+    "@newMessageInbrigadachat": {
         "type": "text",
         "placeholders": {}
     },
@@ -1226,8 +1226,8 @@
         "type": "text",
         "placeholders": {}
     },
-    "fluffychat": "FluffyChat",
-    "@fluffychat": {
+    "brigadachat": "brigadachat",
+    "@brigadachat": {
         "type": "text",
         "placeholders": {}
     },
@@ -1664,7 +1664,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "title": "FluffyChat",
+    "title": "brigadachat",
     "@title": {
         "description": "Title for the application",
         "type": "text",
@@ -2359,7 +2359,7 @@
     },
     "noEmailWarning": "Syötä oikea sähköposti-osoite. Muutoin et voi palauttaa salasanaasi. Jollet halua, paina näppäintä uudelleen jatkaaksesi.",
     "@noEmailWarning": {},
-    "dehydrateShare": "Tämä on yksityinen FluffyChat-vientisi. Varmista ettet hukkaa sitä ja pidät sen yksityisenä.",
+    "dehydrateShare": "Tämä on yksityinen brigadachat-vientisi. Varmista ettet hukkaa sitä ja pidät sen yksityisenä.",
     "@dehydrateShare": {},
     "dehydrateTor": "TOR-käyttäjät: vie istunto",
     "@dehydrateTor": {},
@@ -2393,7 +2393,7 @@
     "@pleaseEnterRecoveryKeyDescription": {},
     "unlockOldMessages": "Pura vanhojen viestien salaus",
     "@unlockOldMessages": {},
-    "indexedDbErrorLong": "Viestivarasto ei ole käytössä yksityisselauksessa oletuksena.\nKäythän osoitteessa\n - about:config\n - Aseta dom.indexedDB.privateBrowsing.enabled arvoon true\nMuuten FluffyChatin käyttäminen ei ole mahdollista.",
+    "indexedDbErrorLong": "Viestivarasto ei ole käytössä yksityisselauksessa oletuksena.\nKäythän osoitteessa\n - about:config\n - Aseta dom.indexedDB.privateBrowsing.enabled arvoon true\nMuuten brigadachatin käyttäminen ei ole mahdollista.",
     "@indexedDbErrorLong": {},
     "saveKeyManuallyDescription": "Tallenna tämä avain manuaalisesti käyttäen järjestelmän jakodialogia tai leikepöytää.",
     "@saveKeyManuallyDescription": {},
@@ -2424,7 +2424,7 @@
             "mxid": {}
         }
     },
-    "updateAvailable": "FluffyChatin päivitys on saatavilla",
+    "updateAvailable": "brigadachatin päivitys on saatavilla",
     "@updateAvailable": {},
     "updateNow": "Aloita päivitys taustalla",
     "@updateNow": {},
@@ -2442,11 +2442,11 @@
     "@callingPermissions": {},
     "callingAccount": "Soittamistunnus",
     "@callingAccount": {},
-    "callingAccountDetails": "Sallii FluffyChatin käyttää Androidin omaa Puhelut-sovellusta.",
+    "callingAccountDetails": "Sallii brigadachatin käyttää Androidin omaa Puhelut-sovellusta.",
     "@callingAccountDetails": {},
     "appearOnTop": "Näy päällä",
     "@appearOnTop": {},
-    "appearOnTopDetails": "Sallii sovelluksen näkyä muiden sovellusten päällä (tätä ei tarvita, mikäli olet jo määrittänyt FluffyChatin puhelin-tunnukseksi)",
+    "appearOnTopDetails": "Sallii sovelluksen näkyä muiden sovellusten päällä (tätä ei tarvita, mikäli olet jo määrittänyt brigadachatin puhelin-tunnukseksi)",
     "@appearOnTopDetails": {},
     "newSpace": "Uusi tila",
     "@newSpace": {},
@@ -2458,11 +2458,11 @@
     "@allSpaces": {},
     "screenSharingTitle": "ruudunjako",
     "@screenSharingTitle": {},
-    "otherCallingPermissions": "Mikrofoni, kamera ja muut FluffyChatin oikeudet",
+    "otherCallingPermissions": "Mikrofoni, kamera ja muut brigadachatin oikeudet",
     "@otherCallingPermissions": {},
     "newGroup": "Uusi ryhmä",
     "@newGroup": {},
-    "screenSharingDetail": "Jaat ruutuasi FluffyChatissä",
+    "screenSharingDetail": "Jaat ruutuasi brigadachatissä",
     "@screenSharingDetail": {},
     "hugContent": "{senderName} halaa sinua",
     "@hugContent": {

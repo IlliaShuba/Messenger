@@ -63,9 +63,9 @@ class UpdateCheckerNoStore {
   Uri downloadUri(UpdateMetadata metadata) {
     // platform specific
     if (PlatformInfos.isWindows) {
-      return Uri.parse('https://$gitLabHost/famedly/fluffychat/-'
+      return Uri.parse('https://$gitLabHost/famedly/brigadachat/-'
           '/jobs/artifacts/$metadata/raw/'
-          'build/windows/runner/Release/fluffychat.msix?job=build_windows');
+          'build/windows/runner/Release/brigadachat.msix?job=build_windows');
     } else {
       throw UnimplementedError('No download URI available for this platform.');
     }
@@ -83,7 +83,7 @@ class UpdateCheckerNoStore {
         final dir = await getTemporaryDirectory();
         final response = await get(downloadUri(metadata));
         if (response.statusCode == 200) {
-          final file = File('${dir.path}/fluffychat.msix');
+          final file = File('${dir.path}/brigadachat.msix');
           await file.writeAsBytes(response.bodyBytes);
           Process.start(file.path, [], runInShell: true);
         } else {

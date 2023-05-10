@@ -741,8 +741,8 @@
         "type": "text",
         "placeholders": {}
     },
-    "fluffychat": "FluffyChat",
-    "@fluffychat": {
+    "brigadachat": "brigadachat",
+    "@brigadachat": {
         "type": "text",
         "placeholders": {}
     },
@@ -926,7 +926,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "inviteText": "{username} вас позива у FluffyChat. \n1. Инсталирајте FluffyChat: https://fluffychat.im \n2. Региструјте се или пријавите \n3. Отворите везу позивнице: {link}",
+    "inviteText": "{username} вас позива у brigadachat. \n1. Инсталирајте brigadachat: https://brigadachat.im \n2. Региструјте се или пријавите \n3. Отворите везу позивнице: {link}",
     "@inviteText": {
         "type": "text",
         "placeholders": {
@@ -1100,8 +1100,8 @@
         "type": "text",
         "placeholders": {}
     },
-    "newMessageInFluffyChat": "Нова порука — FluffyChat",
-    "@newMessageInFluffyChat": {
+    "newMessageInbrigadachat": "Нова порука — brigadachat",
+    "@newMessageInbrigadachat": {
         "type": "text",
         "placeholders": {}
     },
@@ -1135,7 +1135,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "noGoogleServicesWarning": "Чини се да немате Гугл услуге на телефону. То је добра одлука за вашу приватност! Да би се протурале нотификације у FluffyChat, препоручујемо коришћење https://microg.org/ или https://unifiedpush.org/",
+    "noGoogleServicesWarning": "Чини се да немате Гугл услуге на телефону. То је добра одлука за вашу приватност! Да би се протурале нотификације у brigadachat, препоручујемо коришћење https://microg.org/ или https://unifiedpush.org/",
     "@noGoogleServicesWarning": {
         "type": "text",
         "placeholders": {}
@@ -1704,7 +1704,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "title": "FluffyChat",
+    "title": "brigadachat",
     "@title": {
         "description": "Title for the application",
         "type": "text",

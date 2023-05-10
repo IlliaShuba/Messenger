@@ -8,9 +8,9 @@ import 'package:future_loading_dialog/future_loading_dialog.dart';
 import 'package:matrix/matrix.dart';
 import 'package:vrouter/vrouter.dart';
 
-import 'package:fluffychat/pages/invitation_selection/invitation_selection_view.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:brigadachat/pages/invitation_selection/invitation_selection_view.dart';
+import 'package:brigadachat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:brigadachat/widgets/matrix.dart';
 import '../../utils/localized_exception_extension.dart';
 
 class InvitationSelection extends StatefulWidget {

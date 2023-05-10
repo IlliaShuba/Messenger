@@ -4,15 +4,15 @@ import 'package:flutter_gen/gen_l10n/l10n.dart';
 import 'package:matrix/matrix.dart';
 import 'package:scroll_to_index/scroll_to_index.dart';
 
-import 'package:fluffychat/config/themes.dart';
-import 'package:fluffychat/pages/chat/chat.dart';
-import 'package:fluffychat/pages/chat/events/message.dart';
-import 'package:fluffychat/pages/chat/seen_by_row.dart';
-import 'package:fluffychat/pages/chat/typing_indicators.dart';
-import 'package:fluffychat/pages/user_bottom_sheet/user_bottom_sheet.dart';
-import 'package:fluffychat/utils/adaptive_bottom_sheet.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/filtered_timeline_extension.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
+import 'package:brigadachat/config/themes.dart';
+import 'package:brigadachat/pages/chat/chat.dart';
+import 'package:brigadachat/pages/chat/events/message.dart';
+import 'package:brigadachat/pages/chat/seen_by_row.dart';
+import 'package:brigadachat/pages/chat/typing_indicators.dart';
+import 'package:brigadachat/pages/user_bottom_sheet/user_bottom_sheet.dart';
+import 'package:brigadachat/utils/adaptive_bottom_sheet.dart';
+import 'package:brigadachat/utils/matrix_sdk_extensions/filtered_timeline_extension.dart';
+import 'package:brigadachat/utils/platform_infos.dart';
 
 class ChatEventList extends StatelessWidget {
   final ChatController controller;

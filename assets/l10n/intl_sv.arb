@@ -621,8 +621,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "brigadachat": "brigadachat",
+  "@brigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -796,7 +796,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "inviteText": "{username} bjöd in dig till FluffyChat. \n1. Installera FluffyChat: https://fluffychat.im \n2. Registrera dig eller logga in \n3. Öppna inbjudningslänk: {link}",
+  "inviteText": "{username} bjöd in dig till brigadachat. \n1. Installera brigadachat: https://brigadachat.im \n2. Registrera dig eller logga in \n3. Öppna inbjudningslänk: {link}",
   "@inviteText": {
     "type": "text",
     "placeholders": {
@@ -963,8 +963,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Nya meddelanden i FluffyChat",
-  "@newMessageInFluffyChat": {
+  "newMessageInbrigadachat": "💬 Nya meddelanden i brigadachat",
+  "@newMessageInbrigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -993,7 +993,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "noGoogleServicesWarning": "De ser ut som att du inte har google-tjänster på din telefon. Det är ett bra beslut för din integritet! För att få push notifikationer i FluffyChat rekommenderar vi att använda https://microg.org/ eller https://unifiedpush.org/ .",
+  "noGoogleServicesWarning": "De ser ut som att du inte har google-tjänster på din telefon. Det är ett bra beslut för din integritet! För att få push notifikationer i brigadachat rekommenderar vi att använda https://microg.org/ eller https://unifiedpush.org/ .",
   "@noGoogleServicesWarning": {
     "type": "text",
     "placeholders": {}
@@ -1507,7 +1507,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "brigadachat",
   "@title": {
     "description": "Title for the application",
     "type": "text",
@@ -2401,7 +2401,7 @@
   "@sorryThatsNotPossible": {},
   "confirmMatrixId": "Bekräfta ditt Matrix-ID för att radera ditt konto.",
   "@confirmMatrixId": {},
-  "updateAvailable": "FluffyChat-uppdatering tillgänglig",
+  "updateAvailable": "brigadachat-uppdatering tillgänglig",
   "@updateAvailable": {},
   "updateNow": "Påbörja uppdatering i bakgrunden",
   "@updateNow": {},
@@ -2412,7 +2412,7 @@
       "mxid": {}
     }
   },
-  "dehydrateShare": "Detta är din privata FluffyChat-export. Tappa inte bort den och håll den för dig själv.",
+  "dehydrateShare": "Detta är din privata brigadachat-export. Tappa inte bort den och håll den för dig själv.",
   "@dehydrateShare": {},
   "pleaseEnterRecoveryKey": "Ange din återställningsnyckel:",
   "@pleaseEnterRecoveryKey": {},
@@ -2422,7 +2422,7 @@
   "@noEmailWarning": {},
   "user": "Användare",
   "@user": {},
-  "indexedDbErrorLong": "Meddelandelagring är tyvärr inte aktiverat i privat läge som standard.\nGå till\n - about:config\n - sätt dom.indexedDB.privateBrowsing.enabled till true\nAnnars går det inte att använda FluffyChat.",
+  "indexedDbErrorLong": "Meddelandelagring är tyvärr inte aktiverat i privat läge som standard.\nGå till\n - about:config\n - sätt dom.indexedDB.privateBrowsing.enabled till true\nAnnars går det inte att använda brigadachat.",
   "@indexedDbErrorLong": {},
   "storeInSecureStorageDescription": "Lagra återställningsnyckeln på säker plats på denna enhet.",
   "@storeInSecureStorageDescription": {},
@@ -2465,7 +2465,7 @@
   },
   "hydrate": "Återställ från säkerhetskopia",
   "@hydrate": {},
-  "screenSharingDetail": "Du delar din skärm i FluffyChat",
+  "screenSharingDetail": "Du delar din skärm i brigadachat",
   "@screenSharingDetail": {},
   "letsStart": "Lås oss börja",
   "@letsStart": {},
@@ -2507,13 +2507,13 @@
   "@callingPermissions": {},
   "callingAccount": "Samtalskonto",
   "@callingAccount": {},
-  "callingAccountDetails": "Tillåt FluffyChat att använda Androids ring-app.",
+  "callingAccountDetails": "Tillåt brigadachat att använda Androids ring-app.",
   "@callingAccountDetails": {},
   "appearOnTop": "Visa ovanpå",
   "@appearOnTop": {},
-  "appearOnTopDetails": "Tillåt att appen visas ovanpå (behövs inte om du redan har FluffyChat konfigurerat som ett samtalskonto)",
+  "appearOnTopDetails": "Tillåt att appen visas ovanpå (behövs inte om du redan har brigadachat konfigurerat som ett samtalskonto)",
   "@appearOnTopDetails": {},
-  "otherCallingPermissions": "Mikrofon, kamera och andra behörigheter för FluffyChat",
+  "otherCallingPermissions": "Mikrofon, kamera och andra behörigheter för brigadachat",
   "@otherCallingPermissions": {},
   "whyIsThisMessageEncrypted": "Varför kan inte detta meddelande läsas?",
   "@whyIsThisMessageEncrypted": {},

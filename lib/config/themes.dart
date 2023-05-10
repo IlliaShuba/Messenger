@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 
 import 'package:vrouter/vrouter.dart';
 
-import 'package:fluffychat/utils/platform_infos.dart';
+import 'package:brigadachat/utils/platform_infos.dart';
 import 'app_config.dart';
 
 abstract class FluffyThemes {

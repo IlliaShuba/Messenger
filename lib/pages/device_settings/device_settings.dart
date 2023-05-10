@@ -7,8 +7,8 @@ import 'package:future_loading_dialog/future_loading_dialog.dart';
 import 'package:matrix/encryption/utils/key_verification.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/pages/device_settings/device_settings_view.dart';
-import 'package:fluffychat/pages/key_verification/key_verification_dialog.dart';
+import 'package:brigadachat/pages/device_settings/device_settings_view.dart';
+import 'package:brigadachat/pages/key_verification/key_verification_dialog.dart';
 import '../../widgets/matrix.dart';
 
 class DevicesSettings extends StatefulWidget {

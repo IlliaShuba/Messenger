@@ -41,8 +41,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "brigadachat": "brigadachat",
+  "@brigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -990,8 +990,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Nauja žinutė FluffyChat'e",
-  "@newMessageInFluffyChat": {
+  "newMessageInbrigadachat": "💬 Nauja žinutė brigadachat'e",
+  "@newMessageInbrigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -1439,7 +1439,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "brigadachat",
   "@title": {
     "description": "Title for the application",
     "type": "text",
@@ -1475,7 +1475,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "noGoogleServicesWarning": "Atrodo, kad jūsų telefone nėra Google Services. Tai geras sprendimas jūsų privatumui! Norėdami gauti tiesioginius pranešimus FluffyChat, rekomenduojame naudoti https://microg.org/ arba https://unifiedpush.org/.",
+  "noGoogleServicesWarning": "Atrodo, kad jūsų telefone nėra Google Services. Tai geras sprendimas jūsų privatumui! Norėdami gauti tiesioginius pranešimus brigadachat, rekomenduojame naudoti https://microg.org/ arba https://unifiedpush.org/.",
   "@noGoogleServicesWarning": {
     "type": "text",
     "placeholders": {}
@@ -1934,7 +1934,7 @@
       "targetName": {}
     }
   },
-  "inviteText": "{username} pakvietė jus prisijungti prie FluffyChat. \n1. Įdiekite FluffyChat: https://fluffychat.im \n2. Prisiregistruokite arba prisijunkite \n3. Atidarykite pakvietimo nuorodą: {link}",
+  "inviteText": "{username} pakvietė jus prisijungti prie brigadachat. \n1. Įdiekite brigadachat: https://brigadachat.im \n2. Prisiregistruokite arba prisijunkite \n3. Atidarykite pakvietimo nuorodą: {link}",
   "@inviteText": {
     "type": "text",
     "placeholders": {
@@ -2363,7 +2363,7 @@
   "@dehydrateTorLong": {},
   "dehydrateWarning": "Šio veiksmo negalima atšaukti. Įsitikinkite, kad saugiai saugote atsarginę kopiją.",
   "@dehydrateWarning": {},
-  "dehydrateShare": "Tai jūsų privatus FluffyChat eksportas. Pasirūpinkite, kad jo neprarastumėte ir išsaugotumėte privatumą.",
+  "dehydrateShare": "Tai jūsų privatus brigadachat eksportas. Pasirūpinkite, kad jo neprarastumėte ir išsaugotumėte privatumą.",
   "@dehydrateShare": {},
   "hydrateTorLong": "Ar paskutinį kartą eksportavote savo sesiją naudodami TOR? Greitai ją importuokite ir tęskite pokalbį.",
   "@hydrateTorLong": {},
@@ -2379,7 +2379,7 @@
   "@callingAccount": {},
   "newSpace": "Nauja erdvė",
   "@newSpace": {},
-  "callingAccountDetails": "Leidžia FluffyChat naudoti vietinę Android rinkiklio programą.",
+  "callingAccountDetails": "Leidžia brigadachat naudoti vietinę Android rinkiklio programą.",
   "@callingAccountDetails": {},
   "appearOnTop": "Rodyti viršuje",
   "@appearOnTop": {},
@@ -2416,7 +2416,7 @@
   "@recoveryKey": {},
   "recoveryKeyLost": "Pamestas atkūrimo raktas?",
   "@recoveryKeyLost": {},
-  "indexedDbErrorLong": "Deja, pagal numatytuosius nustatymus žinučių saugojimas privačiame režime nėra įjungtas.\nPrašome apsilankyti\n - about:config\n - nustatykite dom.indexedDB.privateBrowsing.enabled į true\nPriešingu atveju FluffyChat paleisti neįmanoma.",
+  "indexedDbErrorLong": "Deja, pagal numatytuosius nustatymus žinučių saugojimas privačiame režime nėra įjungtas.\nPrašome apsilankyti\n - about:config\n - nustatykite dom.indexedDB.privateBrowsing.enabled į true\nPriešingu atveju brigadachat paleisti neįmanoma.",
   "@indexedDbErrorLong": {},
   "noEmailWarning": "Įveskite galiojantį el. pašto adresą. Priešingu atveju negalėsite iš naujo nustatyti slaptažodžio. Jei nenorite, dar kartą bakstelėkite mygtuką, kad galėtumėte tęsti.",
   "@noEmailWarning": {},
@@ -2428,7 +2428,7 @@
       "count": {}
     }
   },
-  "updateAvailable": "Galimas FluffyChat atnaujinimas",
+  "updateAvailable": "Galimas brigadachat atnaujinimas",
   "@updateAvailable": {},
   "updateNow": "Pradėti atnaujinimą fone",
   "@updateNow": {},
@@ -2454,9 +2454,9 @@
   "@foregroundServiceRunning": {},
   "screenSharingTitle": "ekrano bendrinimas",
   "@screenSharingTitle": {},
-  "appearOnTopDetails": "Leidžia programėlę rodyti viršuje (nebūtina, jei jau esate nustatę Fluffychat kaip skambinimo paskyrą)",
+  "appearOnTopDetails": "Leidžia programėlę rodyti viršuje (nebūtina, jei jau esate nustatę brigadachat kaip skambinimo paskyrą)",
   "@appearOnTopDetails": {},
-  "otherCallingPermissions": "Mikrofonas, kamera ir kiti FluffyChat leidimai",
+  "otherCallingPermissions": "Mikrofonas, kamera ir kiti brigadachat leidimai",
   "@otherCallingPermissions": {},
   "whyIsThisMessageEncrypted": "Kodėl ši žinutė neperskaitoma?",
   "@whyIsThisMessageEncrypted": {},

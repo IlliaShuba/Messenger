@@ -1,6 +1,6 @@
 # Code Style
 
-FluffyChat tries to be as minimal as possible even in the code style. We try to keep the code clean, simple and easy to read. The source code of the app is under `/lib` with the main entry point `/lib/main.dart`.
+brigadachat tries to be as minimal as possible even in the code style. We try to keep the code clean, simple and easy to read. The source code of the app is under `/lib` with the main entry point `/lib/main.dart`.
 
 ### Directory Structure:
 

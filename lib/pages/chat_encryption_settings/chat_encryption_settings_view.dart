@@ -5,9 +5,9 @@ import 'package:matrix/matrix.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 import 'package:vrouter/vrouter.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/pages/chat_encryption_settings/chat_encryption_settings.dart';
-import 'package:fluffychat/utils/beautify_string_extension.dart';
+import 'package:brigadachat/config/app_config.dart';
+import 'package:brigadachat/pages/chat_encryption_settings/chat_encryption_settings.dart';
+import 'package:brigadachat/utils/beautify_string_extension.dart';
 
 class ChatEncryptionSettingsView extends StatelessWidget {
   final ChatEncryptionSettingsController controller;
@@ -49,12 +49,6 @@ class ChatEncryptionSettingsView extends StatelessWidget {
               title: Text(L10n.of(context)!.encryptThisChat),
               value: room.encrypted,
               onChanged: controller.enableEncryption,
-            ),
-            Center(
-              child: Image.asset(
-                'assets/encryption.png',
-                width: 212,
-              ),
             ),
             const Divider(height: 1),
             if (room.isDirectChat)

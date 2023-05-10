@@ -1,6 +1,6 @@
 {
-    "name": "FluffyChat",
-    "short_name": "FluffyChat",
+    "name": "brigadachat",
+    "short_name": "brigadachat",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

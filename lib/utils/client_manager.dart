@@ -7,14 +7,14 @@ import 'package:matrix/encryption/utils/key_verification.dart';
 import 'package:matrix/matrix.dart';
 import 'package:path_provider/path_provider.dart';
 
-import 'package:fluffychat/utils/custom_http_client.dart';
-import 'package:fluffychat/utils/custom_image_resizer.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/flutter_hive_collections_database.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
+import 'package:brigadachat/utils/custom_http_client.dart';
+import 'package:brigadachat/utils/custom_image_resizer.dart';
+import 'package:brigadachat/utils/matrix_sdk_extensions/flutter_hive_collections_database.dart';
+import 'package:brigadachat/utils/platform_infos.dart';
 import 'famedlysdk_store.dart';
 
 abstract class ClientManager {
-  static const String clientNamespace = 'im.fluffychat.store.clients';
+  static const String clientNamespace = 'im.brigadachat.store.clients';
   static Future<List<Client>> getClients({bool initialize = true}) async {
     if (PlatformInfos.isLinux) {
       Hive.init((await getApplicationSupportDirectory()).path);

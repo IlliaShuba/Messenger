@@ -6,7 +6,7 @@ import 'package:future_loading_dialog/future_loading_dialog.dart';
 import 'package:matrix/matrix.dart';
 import 'package:vrouter/vrouter.dart';
 
-import 'package:fluffychat/widgets/permission_slider_dialog.dart';
+import 'package:brigadachat/widgets/permission_slider_dialog.dart';
 import '../../widgets/matrix.dart';
 import 'user_bottom_sheet_view.dart';
 

@@ -22,11 +22,11 @@ import 'package:universal_html/html.dart' as html;
 import 'package:url_launcher/url_launcher_string.dart';
 import 'package:vrouter/vrouter.dart';
 
-import 'package:fluffychat/utils/client_manager.dart';
-import 'package:fluffychat/utils/localized_exception_extension.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/utils/uia_request_manager.dart';
-import 'package:fluffychat/utils/voip_plugin.dart';
+import 'package:brigadachat/utils/client_manager.dart';
+import 'package:brigadachat/utils/localized_exception_extension.dart';
+import 'package:brigadachat/utils/platform_infos.dart';
+import 'package:brigadachat/utils/uia_request_manager.dart';
+import 'package:brigadachat/utils/voip_plugin.dart';
 import '../config/app_config.dart';
 import '../config/setting_keys.dart';
 import '../pages/key_verification/key_verification_dialog.dart';

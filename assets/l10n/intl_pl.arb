@@ -694,8 +694,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "brigadachat": "brigadachat",
+  "@brigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -854,7 +854,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "inviteText": "{username} zaprosił/-a cię do FluffyChat. \n1. Zainstaluj FluffyChat: https://fluffychat.im \n2. Zarejestuj się lub zaloguj \n3. Otwórz link zaproszenia: {link}",
+  "inviteText": "{username} zaprosił/-a cię do brigadachat. \n1. Zainstaluj brigadachat: https://brigadachat.im \n2. Zarejestuj się lub zaloguj \n3. Otwórz link zaproszenia: {link}",
   "@inviteText": {
     "type": "text",
     "placeholders": {
@@ -1016,8 +1016,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Nowa wiadomość w FluffyChat",
-  "@newMessageInFluffyChat": {
+  "newMessageInbrigadachat": "💬 Nowa wiadomość w brigadachat",
+  "@newMessageInbrigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -1041,7 +1041,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "noGoogleServicesWarning": "Wygląda na to, że nie masz usług Google w swoim telefonie. To dobra decyzja dla twojej prywatności! Aby otrzymywać powiadomienia wysyłane w FluffyChat, zalecamy korzystanie z https://microg.org/ lub https://unifiedpush.org/.",
+  "noGoogleServicesWarning": "Wygląda na to, że nie masz usług Google w swoim telefonie. To dobra decyzja dla twojej prywatności! Aby otrzymywać powiadomienia wysyłane w brigadachat, zalecamy korzystanie z https://microg.org/ lub https://unifiedpush.org/.",
   "@noGoogleServicesWarning": {
     "type": "text",
     "placeholders": {}
@@ -1394,7 +1394,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "brigadachat",
   "@title": {
     "description": "Title for the application",
     "type": "text",
@@ -2183,7 +2183,7 @@
   "@unsubscribeStories": {},
   "updateNow": "Rozpocznij aktualizację w tle",
   "@updateNow": {},
-  "dehydrateShare": "To jest twój prywatny eksport FluffyChat. Upewnij się, że nie zgubisz go i zachowaj go dla siebie.",
+  "dehydrateShare": "To jest twój prywatny eksport brigadachat. Upewnij się, że nie zgubisz go i zachowaj go dla siebie.",
   "@dehydrateShare": {},
   "hydrateTorLong": "Czy ostatnio eksportowałeś/-aś swoją sesję na TOR? Szybko ją zaimportuj i kontynuuj rozmowy.",
   "@hydrateTorLong": {},
@@ -2256,7 +2256,7 @@
   "@openChat": {},
   "addToSpaceDescription": "Wybierz przestrzeń, do której ten czat ma być dodany.",
   "@addToSpaceDescription": {},
-  "updateAvailable": "Aktualizacja FluffyChat jest dostępna",
+  "updateAvailable": "Aktualizacja brigadachat jest dostępna",
   "@updateAvailable": {},
   "supposedMxid": "To powinno być {mxid}",
   "@supposedMxid": {
@@ -2349,13 +2349,13 @@
   "@deviceKeys": {},
   "emailOrUsername": "Adres e-mail lub nazwa użytkownika",
   "@emailOrUsername": {},
-  "indexedDbErrorLong": "Przechowywanie wiadomości niestety nie jest domyślnie włączone w trybie prywatnym.\nOdwiedź\n - about:config\n - ustaw dom.indexedDB.privateBrowsing.enabled na true\nW przeciwnym razie nie jest możliwe uruchomienie FluffyChat.",
+  "indexedDbErrorLong": "Przechowywanie wiadomości niestety nie jest domyślnie włączone w trybie prywatnym.\nOdwiedź\n - about:config\n - ustaw dom.indexedDB.privateBrowsing.enabled na true\nW przeciwnym razie nie jest możliwe uruchomienie brigadachat.",
   "@indexedDbErrorLong": {},
   "saveKeyManuallyDescription": "Zapisz ten klucz ręcznie, uruchamiając systemowe okno dialogowe udostępniania lub schowek.",
   "@saveKeyManuallyDescription": {},
   "screenSharingTitle": "udostępnianie ekranu",
   "@screenSharingTitle": {},
-  "appearOnTopDetails": "Umożliwia wyświetlanie aplikacji nad innymi (nie jest to konieczne, jeśli FluffyChat jest już ustawiony jako konto do dzwonienia)",
+  "appearOnTopDetails": "Umożliwia wyświetlanie aplikacji nad innymi (nie jest to konieczne, jeśli brigadachat jest już ustawiony jako konto do dzwonienia)",
   "@appearOnTopDetails": {},
   "noKeyForThisMessage": "Może się to zdarzyć, jeśli wiadomość została wysłana przed zalogowaniem się na to konto na tym urządzeniu.\n\nMożliwe jest również, że nadawca zablokował Twoje urządzenie lub coś poszło nie tak z połączeniem internetowym.\n\nJesteś w stanie odczytać wiadomość na innej sesji? W takim razie możesz przenieść z niej wiadomość! Wejdź w Ustawienia > Urządzenia i upewnij się, że Twoje urządzenia zweryfikowały się wzajemnie. Gdy następnym razem otworzysz pokój i obie sesje będą włączone, klucze zostaną przekazane automatycznie.\n\nNie chcesz stracić kluczy podczas wylogowania lub przełączania urządzeń? Upewnij się, że w ustawieniach masz włączoną kopię zapasową czatu.",
   "@noKeyForThisMessage": {},
@@ -2491,15 +2491,15 @@
   "@storeSecurlyOnThisDevice": {},
   "foregroundServiceRunning": "To powiadomienie pojawia się, gdy usługa w tle jest uruchomiona.",
   "@foregroundServiceRunning": {},
-  "screenSharingDetail": "Udostępniasz swój ekran w FluffyChat",
+  "screenSharingDetail": "Udostępniasz swój ekran w brigadachat",
   "@screenSharingDetail": {},
   "callingAccount": "Konto połączeń",
   "@callingAccount": {},
-  "callingAccountDetails": "Pozwala FluffyChat używać natywnej aplikacji do wykonywania połączeń w Androidzie.",
+  "callingAccountDetails": "Pozwala brigadachat używać natywnej aplikacji do wykonywania połączeń w Androidzie.",
   "@callingAccountDetails": {},
   "appearOnTop": "Wyświetlaj nad innymi",
   "@appearOnTop": {},
-  "otherCallingPermissions": "Mikrofon, kamera i inne uprawnienia FluffyChat",
+  "otherCallingPermissions": "Mikrofon, kamera i inne uprawnienia brigadachat",
   "@otherCallingPermissions": {},
   "whyIsThisMessageEncrypted": "Dlaczego nie można odczytać tej wiadomości?",
   "@whyIsThisMessageEncrypted": {},

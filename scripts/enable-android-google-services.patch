@@ -5,7 +5,7 @@ index 001fbd72..339b35af 100644
 @@ -44,7 +44,7 @@ android {
  
      defaultConfig {
-         applicationId "chat.fluffy.fluffychat"
+         applicationId "chat.fluffy.brigadachat"
 -        minSdkVersion 16
 +        minSdkVersion 19
          targetSdkVersion 31
@@ -84,13 +84,13 @@ index 00000000..40570865
 +
 +##---------------End: proguard configuration for Gson (Needed for flutter_local_notifications)  ----------
 \ No newline at end of file
-diff --git a/android/app/src/main/kotlin/chat/fluffy/fluffychat/FcmPushService.kt b/android/app/src/main/kotlin/chat/fluffy/fluffychat/FcmPushService.kt
+diff --git a/android/app/src/main/kotlin/chat/fluffy/brigadachat/FcmPushService.kt b/android/app/src/main/kotlin/chat/fluffy/brigadachat/FcmPushService.kt
 index d9930f55..510e9845 100644
---- a/android/app/src/main/kotlin/chat/fluffy/fluffychat/FcmPushService.kt
-+++ b/android/app/src/main/kotlin/chat/fluffy/fluffychat/FcmPushService.kt
+--- a/android/app/src/main/kotlin/chat/fluffy/brigadachat/FcmPushService.kt
++++ b/android/app/src/main/kotlin/chat/fluffy/brigadachat/FcmPushService.kt
 @@ -1,4 +1,4 @@
--/*package chat.fluffy.fluffychat
-+package chat.fluffy.fluffychat
+-/*package chat.fluffy.brigadachat
++package chat.fluffy.brigadachat
  
  import com.famedly.fcm_shared_isolate.FcmSharedIsolateService
  
@@ -100,10 +100,10 @@ index d9930f55..510e9845 100644
  }
 -*/
 \ No newline at end of file
-diff --git a/android/app/src/main/kotlin/chat/fluffy/fluffychat/MainActivity.kt b/android/app/src/main/kotlin/chat/fluffy/fluffychat/MainActivity.kt
+diff --git a/android/app/src/main/kotlin/chat/fluffy/brigadachat/MainActivity.kt b/android/app/src/main/kotlin/chat/fluffy/brigadachat/MainActivity.kt
 index 1afc4606..894d1571 100644
---- a/android/app/src/main/kotlin/chat/fluffy/fluffychat/MainActivity.kt
-+++ b/android/app/src/main/kotlin/chat/fluffy/fluffychat/MainActivity.kt
+--- a/android/app/src/main/kotlin/chat/fluffy/brigadachat/MainActivity.kt
++++ b/android/app/src/main/kotlin/chat/fluffy/brigadachat/MainActivity.kt
 @@ -7,13 +7,11 @@ import android.content.Context
  import androidx.multidex.MultiDex
  

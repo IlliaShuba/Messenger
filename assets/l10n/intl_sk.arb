@@ -470,8 +470,8 @@
         "type": "text",
         "placeholders": {}
     },
-    "fluffychat": "FluffyChat",
-    "@fluffychat": {
+    "brigadachat": "brigadachat",
+    "@brigadachat": {
         "type": "text",
         "placeholders": {}
     },
@@ -590,7 +590,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "inviteText": "{username} vás pozval na FluffyChat.\n1. Nainštalujte si FluffyChat: https://fluffychat.im\n2. Zaregistrujte sa alebo sa prihláste\n3. Otvorte odkaz na pozvánku: {link}",
+    "inviteText": "{username} vás pozval na brigadachat.\n1. Nainštalujte si brigadachat: https://brigadachat.im\n2. Zaregistrujte sa alebo sa prihláste\n3. Otvorte odkaz na pozvánku: {link}",
     "@inviteText": {
         "type": "text",
         "placeholders": {
@@ -732,8 +732,8 @@
         "type": "text",
         "placeholders": {}
     },
-    "newMessageInFluffyChat": "Nová správa v FluffyChate",
-    "@newMessageInFluffyChat": {
+    "newMessageInbrigadachat": "Nová správa v brigadachate",
+    "@newMessageInbrigadachat": {
         "type": "text",
         "placeholders": {}
     },
@@ -747,7 +747,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "noGoogleServicesWarning": "Zdá sa, že nemáte žiadne služby Googlu v telefóne. To je dobré rozhodnutie pre vaše súkromie! Ak chcete dostávať push notifikácie vo FluffyChat, odporúčame používať microG: https://microg.org/.",
+    "noGoogleServicesWarning": "Zdá sa, že nemáte žiadne služby Googlu v telefóne. To je dobré rozhodnutie pre vaše súkromie! Ak chcete dostávať push notifikácie vo brigadachat, odporúčame používať microG: https://microg.org/.",
     "@noGoogleServicesWarning": {
         "type": "text",
         "placeholders": {}
@@ -1090,7 +1090,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "title": "FluffyChat",
+    "title": "brigadachat",
     "@title": {
         "description": "Title for the application",
         "type": "text",
@@ -1471,7 +1471,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "updateAvailable": "dostupná aktualizácia FluffyChat",
+    "updateAvailable": "dostupná aktualizácia brigadachat",
     "@updateAvailable": {},
     "updateNow": "Začať aktualizáciu na pozadí",
     "@updateNow": {}

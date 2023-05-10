@@ -7,10 +7,10 @@ import 'package:flutter_gen/gen_l10n/l10n.dart';
 import 'package:matrix/matrix.dart';
 import 'package:matrix_link_text/link_text.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/pages/chat/chat.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/utils/url_launcher.dart';
+import 'package:brigadachat/config/app_config.dart';
+import 'package:brigadachat/pages/chat/chat.dart';
+import 'package:brigadachat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:brigadachat/utils/url_launcher.dart';
 
 class PinnedEvents extends StatelessWidget {
   final ChatController controller;

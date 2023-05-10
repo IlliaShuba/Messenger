@@ -4,7 +4,7 @@ import 'package:adaptive_dialog/adaptive_dialog.dart';
 import 'package:flutter_gen/gen_l10n/l10n.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:brigadachat/utils/matrix_sdk_extensions/matrix_locals.dart';
 
 extension ClientStoriesExtension on Client {
   static const String storiesRoomType = 'msc3588.stories.stories-room';
@@ -51,7 +51,7 @@ extension ClientStoriesExtension on Client {
       powerLevelContentOverride: {"events_default": 100},
       name: 'Stories from ${userID!.localpart}',
       topic:
-          'This is a room for stories sharing, not unlike the similarly named features in other messaging networks. For best experience please use FluffyChat or minesTrix. Feature development can be followed on: https://github.com/matrix-org/matrix-doc/pull/3588',
+          'This is a room for stories sharing, not unlike the similarly named features in other messaging networks. For best experience please use brigadachat or minesTrix. Feature development can be followed on: https://github.com/matrix-org/matrix-doc/pull/3588',
       initialState: [
         StateEvent(
           type: EventTypes.Encryption,

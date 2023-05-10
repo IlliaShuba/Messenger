@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/l10n.dart';
 import 'package:vrouter/vrouter.dart';
 
-import 'package:fluffychat/pages/chat/chat.dart';
-import 'package:fluffychat/pages/user_bottom_sheet/user_bottom_sheet.dart';
-import 'package:fluffychat/utils/adaptive_bottom_sheet.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/widgets/avatar.dart';
+import 'package:brigadachat/pages/chat/chat.dart';
+import 'package:brigadachat/pages/user_bottom_sheet/user_bottom_sheet.dart';
+import 'package:brigadachat/utils/adaptive_bottom_sheet.dart';
+import 'package:brigadachat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:brigadachat/widgets/avatar.dart';
 
 class ChatAppBarTitle extends StatelessWidget {
   final ChatController controller;

@@ -484,8 +484,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "brigadachat": "brigadachat",
+  "@brigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -604,7 +604,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "inviteText": "{username}(e)k FluffyChatera gonbidatu zaitu.\n1. Instalatu FluffyChat: https://fluffychat.im\n2. Eman izena edo hasi saioa\n3. Ireki gonbidapen esteka: {link}",
+  "inviteText": "{username}(e)k brigadachatera gonbidatu zaitu.\n1. Instalatu brigadachat: https://brigadachat.im\n2. Eman izena edo hasi saioa\n3. Ireki gonbidapen esteka: {link}",
   "@inviteText": {
     "type": "text",
     "placeholders": {
@@ -751,8 +751,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Mezu berria FluffyChaten",
-  "@newMessageInFluffyChat": {
+  "newMessageInbrigadachat": "💬 Mezu berria brigadachaten",
+  "@newMessageInbrigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -771,7 +771,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "noGoogleServicesWarning": "Dirudienez ez daukazu Googleren zerbitzurik zure mugikorrean. Primerako erabakia zure pribatutasunerako! FluffyChaten jakinarazpenak jasotzeko https://microg.org/ edo https://unifiedpush.org/ erabiltzea gomendatzen dugu.",
+  "noGoogleServicesWarning": "Dirudienez ez daukazu Googleren zerbitzurik zure mugikorrean. Primerako erabakia zure pribatutasunerako! brigadachaten jakinarazpenak jasotzeko https://microg.org/ edo https://unifiedpush.org/ erabiltzea gomendatzen dugu.",
   "@noGoogleServicesWarning": {
     "type": "text",
     "placeholders": {}
@@ -1140,7 +1140,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "brigadachat",
   "@title": {
     "description": "Title for the application",
     "type": "text",
@@ -2377,7 +2377,7 @@
   "@hydrate": {},
   "pleaseEnterRecoveryKeyDescription": "Mezu zaharrak ikusi ahal izateko, sartu aurreko saioan sortu zen berreskuratze-gakoa. Berreskuratze-gakoa EZ da zure pasahitza.",
   "@pleaseEnterRecoveryKeyDescription": {},
-  "indexedDbErrorLong": "Mezuen artxibatzea ez dago defektuz gaituta modu pribatua erabiltzean.\nGaitzeko:\n - about:config\n - dom.indexedDB.privateBrowsing.enabled aukerak true erakutsi dezala\nBestela ezin da FluffyChat erabili.",
+  "indexedDbErrorLong": "Mezuen artxibatzea ez dago defektuz gaituta modu pribatua erabiltzean.\nGaitzeko:\n - about:config\n - dom.indexedDB.privateBrowsing.enabled aukerak true erakutsi dezala\nBestela ezin da brigadachat erabili.",
   "@indexedDbErrorLong": {},
   "storeSecurlyOnThisDevice": "Gorde gailu honetan modu seguruan",
   "@storeSecurlyOnThisDevice": {},
@@ -2391,7 +2391,7 @@
   "@user": {},
   "custom": "Neurrira egindakoa",
   "@custom": {},
-  "updateAvailable": "FluffyChaten eguneraketa bat dago",
+  "updateAvailable": "brigadachaten eguneraketa bat dago",
   "@updateAvailable": {},
   "updateNow": "Abiarazi eguneraketa atzeko planoan",
   "@updateNow": {},
@@ -2409,7 +2409,7 @@
   "@noEmailWarning": {},
   "enableAutoBackups": "Gaitu babeskopia automatikoak",
   "@enableAutoBackups": {},
-  "dehydrateShare": "Hau zure FluffyChaten esportazio pribatua da. Ez galdu eta ez partekatu inorekin.",
+  "dehydrateShare": "Hau zure brigadachaten esportazio pribatua da. Ez galdu eta ez partekatu inorekin.",
   "@dehydrateShare": {},
   "dehydrateTor": "TOR Erabiltzaileak: Esportatu saioa",
   "@dehydrateTor": {},
@@ -2435,11 +2435,11 @@
   "@newGroup": {},
   "enterSpace": "Batu gunera",
   "@enterSpace": {},
-  "appearOnTopDetails": "Aplikazioa goikaldean agertzea baimentzen du (ez da beharrezkoa FluffyChat dei egiteko kontua bezala ezarri baduzu)",
+  "appearOnTopDetails": "Aplikazioa goikaldean agertzea baimentzen du (ez da beharrezkoa brigadachat dei egiteko kontua bezala ezarri baduzu)",
   "@appearOnTopDetails": {},
   "screenSharingTitle": "pantaila partekatzen",
   "@screenSharingTitle": {},
-  "screenSharingDetail": "Pantaila FluffyChaten partekatzen ari zara",
+  "screenSharingDetail": "Pantaila brigadachaten partekatzen ari zara",
   "@screenSharingDetail": {},
   "callingPermissions": "Deiak egiteko baimenak",
   "@callingPermissions": {},
@@ -2449,7 +2449,7 @@
   "@callingAccountDetails": {},
   "appearOnTop": "Gainean erakutsi",
   "@appearOnTop": {},
-  "otherCallingPermissions": "Mikrofono, kamera eta FluffyChaten beste baimen batzuk",
+  "otherCallingPermissions": "Mikrofono, kamera eta brigadachaten beste baimen batzuk",
   "@otherCallingPermissions": {},
   "numChats": "{number} berriketa",
   "@numChats": {

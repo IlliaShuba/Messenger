@@ -7,14 +7,14 @@ import 'package:matrix/matrix.dart';
 import 'package:matrix_link_text/link_text.dart';
 import 'package:video_player/video_player.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/pages/story/story_page.dart';
-import 'package:fluffychat/utils/date_time_extension.dart';
-import 'package:fluffychat/utils/localized_exception_extension.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/utils/string_color.dart';
-import 'package:fluffychat/utils/url_launcher.dart';
-import 'package:fluffychat/widgets/avatar.dart';
+import 'package:brigadachat/config/app_config.dart';
+import 'package:brigadachat/pages/story/story_page.dart';
+import 'package:brigadachat/utils/date_time_extension.dart';
+import 'package:brigadachat/utils/localized_exception_extension.dart';
+import 'package:brigadachat/utils/platform_infos.dart';
+import 'package:brigadachat/utils/string_color.dart';
+import 'package:brigadachat/utils/url_launcher.dart';
+import 'package:brigadachat/widgets/avatar.dart';
 import '../../config/themes.dart';
 
 class StoryView extends StatelessWidget {

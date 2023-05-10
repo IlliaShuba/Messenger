@@ -789,8 +789,8 @@
         "type": "text",
         "placeholders": {}
     },
-    "fluffychat": "FluffyChat",
-    "@fluffychat": {
+    "brigadachat": "brigadachat",
+    "@brigadachat": {
         "type": "text",
         "placeholders": {}
     },
@@ -974,7 +974,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "inviteText": "{username} convidou você para o FluffyChat. \n1. Instale o FluffyChat: https://fluffychat.im \n2. Entre ou crie uma conta \n3. Abra o link do convite: {link}",
+    "inviteText": "{username} convidou você para o brigadachat. \n1. Instale o brigadachat: https://brigadachat.im \n2. Entre ou crie uma conta \n3. Abra o link do convite: {link}",
     "@inviteText": {
         "type": "text",
         "placeholders": {
@@ -1158,8 +1158,8 @@
         "type": "text",
         "placeholders": {}
     },
-    "newMessageInFluffyChat": "💬 Nova mensagem no FluffyChat",
-    "@newMessageInFluffyChat": {
+    "newMessageInbrigadachat": "💬 Nova mensagem no brigadachat",
+    "@newMessageInbrigadachat": {
         "type": "text",
         "placeholders": {}
     },
@@ -1193,7 +1193,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "noGoogleServicesWarning": "Aparentemente você não tem serviços Google no seu celular. Boa decisão para a sua privacidade! Para receber notificações no FluffyChat, recomendamos usar https://microg.org/ ou https://unifiedpush.org.",
+    "noGoogleServicesWarning": "Aparentemente você não tem serviços Google no seu celular. Boa decisão para a sua privacidade! Para receber notificações no brigadachat, recomendamos usar https://microg.org/ ou https://unifiedpush.org.",
     "@noGoogleServicesWarning": {
         "type": "text",
         "placeholders": {}
@@ -1814,7 +1814,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "title": "FluffyChat",
+    "title": "brigadachat",
     "@title": {
         "description": "Title for the application",
         "type": "text",
@@ -2374,7 +2374,7 @@
     },
     "pleaseEnterRecoveryKeyDescription": "Para destrancar suas mensagens antigas, por favor, insira sua chave de recuperação gerada numa sessão prévia. Suas chave de recuperação NÃO é sua senha.",
     "@pleaseEnterRecoveryKeyDescription": {},
-    "indexedDbErrorLong": "Infelizmente, o armazenamento de mensagens não é habilitado por padrão no modo privado.\nPor favor, visite\n- about:config\n- atribua \"true\" a \"dom.indexedDB.privateBrowsing.enabled\"\nDe outro modo, não será possível executar o FluffyChat.",
+    "indexedDbErrorLong": "Infelizmente, o armazenamento de mensagens não é habilitado por padrão no modo privado.\nPor favor, visite\n- about:config\n- atribua \"true\" a \"dom.indexedDB.privateBrowsing.enabled\"\nDe outro modo, não será possível executar o brigadachat.",
     "@indexedDbErrorLong": {},
     "users": "Usuários",
     "@users": {},
@@ -2419,7 +2419,7 @@
     "@commandHint_markasdm": {},
     "commandHint_markasgroup": "Marcar como grupo",
     "@commandHint_markasgroup": {},
-    "dehydrateShare": "Este é seu extrato FluffyChat. Cuidado para não perdê-lo e o mantenha privado.",
+    "dehydrateShare": "Este é seu extrato brigadachat. Cuidado para não perdê-lo e o mantenha privado.",
     "@dehydrateShare": {},
     "hydrateTor": "Usuários TOR: Importar sessão",
     "@hydrateTor": {},
@@ -2451,13 +2451,13 @@
     "@callingPermissions": {},
     "callingAccount": "Conta para chamadas",
     "@callingAccount": {},
-    "callingAccountDetails": "Permitir que o FluffyChat use o app de chamadas nativo do Android.",
+    "callingAccountDetails": "Permitir que o brigadachat use o app de chamadas nativo do Android.",
     "@callingAccountDetails": {},
     "appearOnTop": "Aparecer no topo",
     "@appearOnTop": {},
-    "appearOnTopDetails": "Permitir que o app apareça no topo (desnecessário caso FluffyChat já esteja configurado como conta para chamadas)",
+    "appearOnTopDetails": "Permitir que o app apareça no topo (desnecessário caso brigadachat já esteja configurado como conta para chamadas)",
     "@appearOnTopDetails": {},
-    "otherCallingPermissions": "Microfone, câmera e outras permissões do FluffyChat",
+    "otherCallingPermissions": "Microfone, câmera e outras permissões do brigadachat",
     "@otherCallingPermissions": {},
     "newGroup": "Novo grupo",
     "@newGroup": {},
@@ -2479,7 +2479,7 @@
     },
     "doNotShowAgain": "Não mostrar novamente",
     "@doNotShowAgain": {},
-    "updateAvailable": "Atualização do FluffyChat disponível",
+    "updateAvailable": "Atualização do brigadachat disponível",
     "@updateAvailable": {},
     "updateNow": "Iniciar atualização nos bastidores",
     "@updateNow": {},
@@ -2497,7 +2497,7 @@
     "@whyIsThisMessageEncrypted": {},
     "screenSharingTitle": "Compartilhar tela",
     "@screenSharingTitle": {},
-    "screenSharingDetail": "Você está compartilhando sua tela no FluffyChat",
+    "screenSharingDetail": "Você está compartilhando sua tela no brigadachat",
     "@screenSharingDetail": {},
     "numChats": "{number} conversas",
     "@numChats": {

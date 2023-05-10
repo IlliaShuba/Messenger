@@ -8,12 +8,12 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:matrix/matrix.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/config/setting_keys.dart';
-import 'package:fluffychat/utils/client_manager.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/utils/voip/callkeep_manager.dart';
+import 'package:brigadachat/config/app_config.dart';
+import 'package:brigadachat/config/setting_keys.dart';
+import 'package:brigadachat/utils/client_manager.dart';
+import 'package:brigadachat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:brigadachat/utils/platform_infos.dart';
+import 'package:brigadachat/utils/voip/callkeep_manager.dart';
 
 Future<void> pushHelper(
   PushNotification notification, {
@@ -47,7 +47,7 @@ Future<void> pushHelper(
     l10n ??= lookupL10n(const Locale('en'));
     flutterLocalNotificationsPlugin.show(
       0,
-      l10n.newMessageInFluffyChat,
+      l10n.newMessageInbrigadachat,
       l10n.openAppToReadMessages,
       NotificationDetails(
         iOS: const DarwinNotificationDetails(),
@@ -149,7 +149,7 @@ Future<void> _tryPushHelper(
 
   // Calculate the body
   final body = event.type == EventTypes.Encrypted
-      ? l10n.newMessageInFluffyChat
+      ? l10n.newMessageInbrigadachat
       : await event.calcLocalizedBody(
           matrixLocals,
           plaintextBody: true,

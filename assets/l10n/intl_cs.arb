@@ -790,8 +790,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "brigadachat": "brigadachat",
+  "@brigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -975,7 +975,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "inviteText": "{username} vás pozval na FluffyChat.\n1. Nainstalujte si FluffyChat: https://fluffychat.im\n2. Zaregistrujte se anebo se přihlašte\n3. Otevřete odkaz na pozvánce: {link}",
+  "inviteText": "{username} vás pozval na brigadachat.\n1. Nainstalujte si brigadachat: https://brigadachat.im\n2. Zaregistrujte se anebo se přihlašte\n3. Otevřete odkaz na pozvánce: {link}",
   "@inviteText": {
     "type": "text",
     "placeholders": {
@@ -1159,8 +1159,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "Nová zpráva ve FluffyChatu",
-  "@newMessageInFluffyChat": {
+  "newMessageInbrigadachat": "Nová zpráva ve brigadachatu",
+  "@newMessageInbrigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -1194,7 +1194,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "noGoogleServicesWarning": "Zdá se, že v telefonu nemáte žádné služby Google. To je dobré rozhodnutí pro vaše soukromí! Chcete-li dostávat push oznámení ve FluffyChat, doporučujeme použít: https://microg.org/ nebo https://unifiedpush.org/.",
+  "noGoogleServicesWarning": "Zdá se, že v telefonu nemáte žádné služby Google. To je dobré rozhodnutí pro vaše soukromí! Chcete-li dostávat push oznámení ve brigadachat, doporučujeme použít: https://microg.org/ nebo https://unifiedpush.org/.",
   "@noGoogleServicesWarning": {
     "type": "text",
     "placeholders": {}
@@ -1815,7 +1815,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "brigadachat",
   "@title": {
     "description": "Title for the application",
     "type": "text",
@@ -2368,7 +2368,7 @@
   "@errorAddingWidget": {},
   "noEmailWarning": "Prosím zadejte platnou emailovou adresu. V opačném případě nebudete moci obnovit heslo. Pokud nechcete, pokračujte dalším klepnutím na tlačítko.",
   "@noEmailWarning": {},
-  "updateAvailable": "K dispozici aktualizace FluffyChat",
+  "updateAvailable": "K dispozici aktualizace brigadachat",
   "@updateAvailable": {},
   "updateNow": "Spustit aktualizaci na pozadí",
   "@updateNow": {},

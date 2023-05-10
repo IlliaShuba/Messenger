@@ -785,8 +785,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "brigadachat": "brigadachat",
+  "@brigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -970,7 +970,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "inviteText": "{username} hat Dich zu FluffyChat eingeladen. \n1. Installiere FluffyChat: https://fluffychat.im \n2. Melde Dich in der App an \n3. Öffne den Einladungslink: {link}",
+  "inviteText": "{username} hat Dich zu brigadachat eingeladen. \n1. Installiere brigadachat: https://brigadachat.im \n2. Melde Dich in der App an \n3. Öffne den Einladungslink: {link}",
   "@inviteText": {
     "type": "text",
     "placeholders": {
@@ -1154,8 +1154,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Neue Nachricht in FluffyChat",
-  "@newMessageInFluffyChat": {
+  "newMessageInbrigadachat": "💬 Neue Nachricht in brigadachat",
+  "@newMessageInbrigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -1189,7 +1189,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "noGoogleServicesWarning": "Es sieht so aus, als hättest du keine Google-Dienste auf deinem Gerät. Das ist eine gute Entscheidung für deine Privatsphäre! Um Push-Benachrichtigungen in FluffyChat zu erhalten, empfehlen wir die Verwendung von microG https://microg.org/ oder Unified Push https://unifiedpush.org/.",
+  "noGoogleServicesWarning": "Es sieht so aus, als hättest du keine Google-Dienste auf deinem Gerät. Das ist eine gute Entscheidung für deine Privatsphäre! Um Push-Benachrichtigungen in brigadachat zu erhalten, empfehlen wir die Verwendung von microG https://microg.org/ oder Unified Push https://unifiedpush.org/.",
   "@noGoogleServicesWarning": {
     "type": "text",
     "placeholders": {}
@@ -1802,7 +1802,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "brigadachat",
   "@title": {
     "description": "Title for the application",
     "type": "text",
@@ -2368,7 +2368,7 @@
   },
   "noEmailWarning": "Bitte gib eine gültige E-Mail-Adresse ein. Andernfalls kannst du dein Passwort nicht zurücksetzen. Wenn du das nicht möchtest, tippe erneut auf die Schaltfläche, um fortzufahren.",
   "@noEmailWarning": {},
-  "updateAvailable": "FluffyChat-Update verfügbar",
+  "updateAvailable": "brigadachat-Update verfügbar",
   "@updateAvailable": {},
   "updateNow": "Update im Hintergrund starten",
   "@updateNow": {},
@@ -2390,7 +2390,7 @@
   "@dehydrate": {},
   "dehydrateWarning": "Diese Aktion kann nicht rückgängig gemacht werden. Stelle sicher, dass du die Sicherungsdatei sicher aufbewahrst.",
   "@dehydrateWarning": {},
-  "dehydrateShare": "Dies ist dein privater FluffyChat-Export. Stelle sicher, dass du ihn nicht verlierst und bewahre ihn privat auf.",
+  "dehydrateShare": "Dies ist dein privater brigadachat-Export. Stelle sicher, dass du ihn nicht verlierst und bewahre ihn privat auf.",
   "@dehydrateShare": {},
   "dehydrateTor": "TOR-Benutzer: Sitzung exportieren",
   "@dehydrateTor": {},
@@ -2424,7 +2424,7 @@
   "@storeInSecureStorageDescription": {},
   "storeInAppleKeyChain": "Im Apple KeyChain speichern",
   "@storeInAppleKeyChain": {},
-  "indexedDbErrorLong": "Die Nachrichtenspeicherung ist im privaten Modus standardmäßig leider nicht aktiviert.\nBitte besuche\n- about:config\n- Setze dom.indexedDB.privateBrowsing.enabled auf true\nAndernfalls ist es nicht möglich, FluffyChat auszuführen.",
+  "indexedDbErrorLong": "Die Nachrichtenspeicherung ist im privaten Modus standardmäßig leider nicht aktiviert.\nBitte besuche\n- about:config\n- Setze dom.indexedDB.privateBrowsing.enabled auf true\nAndernfalls ist es nicht möglich, brigadachat auszuführen.",
   "@indexedDbErrorLong": {},
   "stories": "Status",
   "@stories": {},
@@ -2445,7 +2445,7 @@
   "@hideUnimportantStateEvents": {},
   "doNotShowAgain": "Nicht mehr anzeigen",
   "@doNotShowAgain": {},
-  "appearOnTopDetails": "Ermöglicht, dass die App oben angezeigt wird (nicht erforderlich, wenn Sie Fluffychat bereits als Anrufkonto eingerichtet haben)",
+  "appearOnTopDetails": "Ermöglicht, dass die App oben angezeigt wird (nicht erforderlich, wenn Sie brigadachat bereits als Anrufkonto eingerichtet haben)",
   "@appearOnTopDetails": {},
   "noKeyForThisMessage": "Dies kann passieren, wenn die Nachricht gesendet wurde, bevor du dich auf diesem Gerät bei deinem Konto angemeldet hast.\n\nEs ist auch möglich, dass der Absender dein Gerät blockiert hat oder etwas mit der Internetverbindung schief gelaufen ist.\n\nKannst du die Nachricht in einer anderen Sitzung lesen? Dann kannst du die Nachricht davon übertragen! Gehe zu denEinstellungen > Geräte und vergewissere dich, dass sich deine Geräte gegenseitig verifiziert haben. Wenn du den Raum das nächste Mal öffnest und beide Sitzungen im Vordergrund sind, werden die Schlüssel automatisch übertragen.\n\nDu möchtest die Schlüssel beim Abmelden oder Gerätewechsel nicht verlieren? Stelle sicher, dass du das Chat-Backup in den Einstellungen aktiviert hast.",
   "@noKeyForThisMessage": {},
@@ -2457,11 +2457,11 @@
   "@callingPermissions": {},
   "callingAccount": "Anrufkonto",
   "@callingAccount": {},
-  "callingAccountDetails": "Ermöglicht FluffyChat, die native Android-Dialer-App zu verwenden.",
+  "callingAccountDetails": "Ermöglicht brigadachat, die native Android-Dialer-App zu verwenden.",
   "@callingAccountDetails": {},
   "appearOnTop": "Oben erscheinen",
   "@appearOnTop": {},
-  "otherCallingPermissions": "Mikrofon, Kamera und andere FluffyChat-Berechtigungen",
+  "otherCallingPermissions": "Mikrofon, Kamera und andere brigadachat-Berechtigungen",
   "@otherCallingPermissions": {},
   "whyIsThisMessageEncrypted": "Warum ist diese Nachricht nicht lesbar?",
   "@whyIsThisMessageEncrypted": {},

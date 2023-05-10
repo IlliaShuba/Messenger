@@ -1,4 +1,4 @@
-package chat.fluffy.fluffychat
+package chat.fluffy.brigadachat
 
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngine

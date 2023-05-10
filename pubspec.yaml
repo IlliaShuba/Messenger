@@ -1,5 +1,5 @@
-name: fluffychat
-description: Chat with your friends.
+name: brigadachat
+description: Chat for military usage.
 publish_to: none
 version: 1.11.2+3360
 
@@ -33,6 +33,7 @@ dependencies:
   flutter_blurhash: ^0.7.0
   flutter_cache_manager: ^3.3.0
   flutter_foreground_task: ^3.10.0
+  flutter_launcher_icons: ^0.11.0
   flutter_local_notifications: ^12.0.2
   flutter_localizations:
     sdk: flutter
@@ -45,6 +46,7 @@ dependencies:
   flutter_typeahead: ^4.3.2
   flutter_web_auth_2: ^2.1.1
   flutter_webrtc: ^0.9.24
+  flutter_windowmanager: ^0.2.0
   future_loading_dialog: ^0.2.3
   geolocator: ^7.6.2
   google_fonts: ^4.0.4
@@ -104,7 +106,13 @@ dev_dependencies:
 flutter_native_splash:
   color: "#ffffff"
   color_dark: "#000000"
-  image: "assets/info-logo.png"
+  image: "assets/favicon.png"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/favicon.png"
+  adaptive_icon_foreground: "assets/favicon.png"
 
 flutter:
   generate: true
@@ -112,8 +120,6 @@ flutter:
   assets:
     - assets/
     - assets/sounds/
-    - assets/js/
-    - assets/js/package/
 
   fonts:
     - family: Roboto
@@ -131,15 +137,15 @@ flutter:
         - asset: fonts/NotoEmoji/NotoColorEmoji.ttf
 
 msix_config:
-  display_name: FluffyChat
-  publisher_display_name: FluffyChat
-  publisher: CN=FluffyChat, O=Head of bad integration tests, L=Matrix, S=Internet, C=EU
-  identity_name: chat.fluffy.fluffychat
+  display_name: brigadachat
+  publisher_display_name: brigadachat
+  publisher: CN=brigadachat, O=Head of bad integration tests, L=Matrix, S=Internet, C=EU
+  identity_name: chat.fluffy.brigadachat
   logo_path: assets\logo.png
   capabilities: internetClient, location, microphone, webcam
   protocol_activation: https
-  app_uri_handler_hosts: fluffychat.im, matrix.to
-  execution_alias: fluffychat
+  app_uri_handler_hosts: brigadachat.im, matrix.to
+  execution_alias: brigadachat
   sign_msix: false
   install_certificate: false
 

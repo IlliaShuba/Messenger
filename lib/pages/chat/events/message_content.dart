@@ -4,12 +4,12 @@ import 'package:flutter_gen/gen_l10n/l10n.dart';
 import 'package:matrix/matrix.dart';
 import 'package:matrix_link_text/link_text.dart';
 
-import 'package:fluffychat/pages/chat/events/video_player.dart';
-import 'package:fluffychat/utils/adaptive_bottom_sheet.dart';
-import 'package:fluffychat/utils/date_time_extension.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:brigadachat/pages/chat/events/video_player.dart';
+import 'package:brigadachat/utils/adaptive_bottom_sheet.dart';
+import 'package:brigadachat/utils/date_time_extension.dart';
+import 'package:brigadachat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:brigadachat/widgets/avatar.dart';
+import 'package:brigadachat/widgets/matrix.dart';
 import '../../../config/app_config.dart';
 import '../../../utils/platform_infos.dart';
 import '../../../utils/url_launcher.dart';

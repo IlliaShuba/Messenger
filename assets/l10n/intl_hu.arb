@@ -514,8 +514,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "brigadachat": "brigadachat",
+  "@brigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -659,7 +659,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "inviteText": "{username} meghívott a FluffyChat alkalmazásba. \n1. Telepítsd a FluffyChat appot: https://fluffychat.im \n2. Regisztrálj, vagy jelentkezz be. \n3. Nyisd meg a meghívó hivatkozást: {link}",
+  "inviteText": "{username} meghívott a brigadachat alkalmazásba. \n1. Telepítsd a brigadachat appot: https://brigadachat.im \n2. Regisztrálj, vagy jelentkezz be. \n3. Nyisd meg a meghívó hivatkozást: {link}",
   "@inviteText": {
     "type": "text",
     "placeholders": {
@@ -811,8 +811,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Új FluffyChat-üzenet",
-  "@newMessageInFluffyChat": {
+  "newMessageInbrigadachat": "💬 Új brigadachat-üzenet",
+  "@newMessageInbrigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -831,7 +831,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "noGoogleServicesWarning": "Úgy tűnik, hogy nincsenek Google szolgáltatások a telefonodon. Ez adatvédelmi szempontból jó döntés! Ahhoz, hogy push értesítéseket fogadhass a FluffyChat alkalmazásban, a microG használatát javasoljuk: https://microg.org/.",
+  "noGoogleServicesWarning": "Úgy tűnik, hogy nincsenek Google szolgáltatások a telefonodon. Ez adatvédelmi szempontból jó döntés! Ahhoz, hogy push értesítéseket fogadhass a brigadachat alkalmazásban, a microG használatát javasoljuk: https://microg.org/.",
   "@noGoogleServicesWarning": {
     "type": "text",
     "placeholders": {}
@@ -1228,7 +1228,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "brigadachat",
   "@title": {
     "description": "Title for the application",
     "type": "text",
@@ -2007,7 +2007,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "updateAvailable": "FluffyChat-frissítés elérhető",
+  "updateAvailable": "brigadachat-frissítés elérhető",
   "@updateAvailable": {},
   "updateNow": "Frissítés elindítása a háttérben",
   "@updateNow": {},
@@ -2030,7 +2030,7 @@
   },
   "commandHint_hug": "Ölelés küldése",
   "@commandHint_hug": {},
-  "dehydrateShare": "Ez egy privát FluffyChat-export. Tartsa biztonságban, és ne vessze el.",
+  "dehydrateShare": "Ez egy privát brigadachat-export. Tartsa biztonságban, és ne vessze el.",
   "@dehydrateShare": {},
   "reason": "Ok",
   "@reason": {

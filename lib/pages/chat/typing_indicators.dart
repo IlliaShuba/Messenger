@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/config/themes.dart';
-import 'package:fluffychat/pages/chat/chat.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:brigadachat/config/app_config.dart';
+import 'package:brigadachat/config/themes.dart';
+import 'package:brigadachat/pages/chat/chat.dart';
+import 'package:brigadachat/widgets/avatar.dart';
+import 'package:brigadachat/widgets/matrix.dart';
 
 class TypingIndicators extends StatelessWidget {
   final ChatController controller;

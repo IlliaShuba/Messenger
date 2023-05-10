@@ -582,8 +582,8 @@
         "type": "text",
         "placeholders": {}
     },
-    "fluffychat": "FluffyChat",
-    "@fluffychat": {
+    "brigadachat": "brigadachat",
+    "@brigadachat": {
         "type": "text",
         "placeholders": {}
     },
@@ -727,7 +727,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "inviteText": "{username} te invitó a FluffyChat.\n1. Instale FluffyChat: https://fluffychat.im\n2. Regístrate o inicia sesión \n3. Abra el enlace de invitación: {link}",
+    "inviteText": "{username} te invitó a brigadachat.\n1. Instale brigadachat: https://brigadachat.im\n2. Regístrate o inicia sesión \n3. Abra el enlace de invitación: {link}",
     "@inviteText": {
         "type": "text",
         "placeholders": {
@@ -879,8 +879,8 @@
         "type": "text",
         "placeholders": {}
     },
-    "newMessageInFluffyChat": "Nuevo mensaje en FluffyChat",
-    "@newMessageInFluffyChat": {
+    "newMessageInbrigadachat": "Nuevo mensaje en brigadachat",
+    "@newMessageInbrigadachat": {
         "type": "text",
         "placeholders": {}
     },
@@ -909,7 +909,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "noGoogleServicesWarning": "Parece que no tienes servicios de Google en tu teléfono. ¡Esa es una buena decisión para tu privacidad! Para recibir notificaciones instantáneas en FluffyChat, recomendamos usar microG: https://microg.org/",
+    "noGoogleServicesWarning": "Parece que no tienes servicios de Google en tu teléfono. ¡Esa es una buena decisión para tu privacidad! Para recibir notificaciones instantáneas en brigadachat, recomendamos usar microG: https://microg.org/",
     "@noGoogleServicesWarning": {
         "type": "text",
         "placeholders": {}
@@ -1336,7 +1336,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "title": "FluffyChat",
+    "title": "brigadachat",
     "@title": {
         "description": "Title for the application",
         "type": "text",

@@ -10,7 +10,7 @@ import 'package:future_loading_dialog/future_loading_dialog.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/utils/platform_infos.dart';
+import 'package:brigadachat/utils/platform_infos.dart';
 import '../../widgets/matrix.dart';
 import '../bootstrap/bootstrap_dialog.dart';
 import 'settings_view.dart';

@@ -5,19 +5,19 @@ import 'package:flutter_gen/gen_l10n/l10n.dart';
 import 'package:matrix/matrix.dart';
 import 'package:vrouter/vrouter.dart';
 
-import 'package:fluffychat/config/routes.dart';
-import 'package:fluffychat/config/themes.dart';
-import 'package:fluffychat/widgets/theme_builder.dart';
+import 'package:brigadachat/config/routes.dart';
+import 'package:brigadachat/config/themes.dart';
+import 'package:brigadachat/widgets/theme_builder.dart';
 import '../config/app_config.dart';
 import '../utils/custom_scroll_behaviour.dart';
 import 'matrix.dart';
 
-class FluffyChatApp extends StatefulWidget {
+class brigadachatApp extends StatefulWidget {
   final Widget? testWidget;
   final List<Client> clients;
   final Map<String, String>? queryParameters;
   static GlobalKey<VRouterState> routerKey = GlobalKey<VRouterState>();
-  const FluffyChatApp({
+  const brigadachatApp({
     Key? key,
     this.testWidget,
     required this.clients,
@@ -30,10 +30,10 @@ class FluffyChatApp extends StatefulWidget {
   static bool gotInitialLink = false;
 
   @override
-  FluffyChatAppState createState() => FluffyChatAppState();
+  brigadachatAppState createState() => brigadachatAppState();
 }
 
-class FluffyChatAppState extends State<FluffyChatApp> {
+class brigadachatAppState extends State<brigadachatApp> {
   bool? columnMode;
   String? _initialUrl;
 
@@ -55,14 +55,14 @@ class FluffyChatAppState extends State<FluffyChatApp> {
             Logs().v('Set Column Mode = $isColumnMode');
             WidgetsBinding.instance.addPostFrameCallback((_) {
               setState(() {
-                _initialUrl = FluffyChatApp.routerKey.currentState?.url;
+                _initialUrl = brigadachatApp.routerKey.currentState?.url;
                 columnMode = isColumnMode;
-                FluffyChatApp.routerKey = GlobalKey<VRouterState>();
+                brigadachatApp.routerKey = GlobalKey<VRouterState>();
               });
             });
           }
           return VRouter(
-            key: FluffyChatApp.routerKey,
+            key: brigadachatApp.routerKey,
             title: AppConfig.applicationName,
             debugShowCheckedModeBanner: false,
             themeMode: themeMode,
@@ -76,7 +76,7 @@ class FluffyChatAppState extends State<FluffyChatApp> {
             routes: AppRoutes(columnMode ?? false).routes,
             builder: (context, child) => Matrix(
               context: context,
-              router: FluffyChatApp.routerKey,
+              router: brigadachatApp.routerKey,
               clients: widget.clients,
               child: child,
             ),

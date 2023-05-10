@@ -1,7 +1,7 @@
 /*
  *   Famedly
  *   Copyright (C) 2020, 2021 Famedly GmbH
- *   Copyright (C) 2021 Fluffychat
+ *   Copyright (C) 2021 brigadachat
  *
  *   This program is free software: you can redistribute it and/or modify
  *   it under the terms of the GNU Affero General Public License as
@@ -32,8 +32,8 @@ import 'package:matrix/matrix.dart';
 import 'package:unifiedpush/unifiedpush.dart';
 import 'package:vrouter/vrouter.dart';
 
-import 'package:fluffychat/utils/matrix_sdk_extensions/client_stories_extension.dart';
-import 'package:fluffychat/utils/push_helper.dart';
+import 'package:brigadachat/utils/matrix_sdk_extensions/client_stories_extension.dart';
+import 'package:brigadachat/utils/push_helper.dart';
 import '../config/app_config.dart';
 import '../config/setting_keys.dart';
 import 'famedlysdk_store.dart';

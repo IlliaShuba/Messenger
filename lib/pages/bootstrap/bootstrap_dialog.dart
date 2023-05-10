@@ -10,9 +10,9 @@ import 'package:matrix/encryption/utils/bootstrap.dart';
 import 'package:matrix/matrix.dart';
 import 'package:share_plus/share_plus.dart';
 
-import 'package:fluffychat/config/themes.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/widgets/adaptive_flat_button.dart';
+import 'package:brigadachat/config/themes.dart';
+import 'package:brigadachat/utils/platform_infos.dart';
+import 'package:brigadachat/widgets/adaptive_flat_button.dart';
 import '../key_verification/key_verification_dialog.dart';
 
 class BootstrapDialog extends StatefulWidget {

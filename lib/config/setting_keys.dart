@@ -24,7 +24,7 @@ abstract class SettingKeys {
   static const String notificationCurrentIds = 'chat.fluffy.notification_ids';
   static const String ownStatusMessage = 'chat.fluffy.status_msg';
   static const String dontAskForBootstrapKey =
-      'chat.fluffychat.dont_ask_bootstrap';
+      'chat.brigadachat.dont_ask_bootstrap';
   static const String autoplayImages = 'chat.fluffy.autoplay_images';
   static const String sendOnEnter = 'chat.fluffy.send_on_enter';
   static const String experimentalVoip = 'chat.fluffy.experimental_voip';

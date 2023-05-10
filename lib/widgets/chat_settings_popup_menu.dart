@@ -11,10 +11,10 @@ import 'package:keyboard_shortcuts/keyboard_shortcuts.dart';
 import 'package:matrix/matrix.dart';
 import 'package:vrouter/vrouter.dart';
 
-import 'package:fluffychat/pages/chat/cupertino_widgets_bottom_sheet.dart';
-import 'package:fluffychat/pages/chat/edit_widgets_dialog.dart';
-import 'package:fluffychat/pages/chat/widgets_bottom_sheet.dart';
-import 'package:fluffychat/utils/adaptive_bottom_sheet.dart';
+import 'package:brigadachat/pages/chat/cupertino_widgets_bottom_sheet.dart';
+import 'package:brigadachat/pages/chat/edit_widgets_dialog.dart';
+import 'package:brigadachat/pages/chat/widgets_bottom_sheet.dart';
+import 'package:brigadachat/utils/adaptive_bottom_sheet.dart';
 import 'matrix.dart';
 
 class ChatSettingsPopupMenu extends StatefulWidget {

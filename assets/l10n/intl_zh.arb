@@ -759,8 +759,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "brigadachat": "brigadachat",
+  "@brigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -944,7 +944,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "inviteText": "{username} 邀请您使用 FluffyChat。 \n1. 安装 FluffyChat：https://fluffychat.im \n2. 注册或登录 \n3. 打开该邀请链接：{link}",
+  "inviteText": "{username} 邀请您使用 brigadachat。 \n1. 安装 brigadachat：https://brigadachat.im \n2. 注册或登录 \n3. 打开该邀请链接：{link}",
   "@inviteText": {
     "type": "text",
     "placeholders": {
@@ -1118,8 +1118,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 FluffyChat 新消息",
-  "@newMessageInFluffyChat": {
+  "newMessageInbrigadachat": "💬 brigadachat 新消息",
+  "@newMessageInbrigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -1153,7 +1153,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "noGoogleServicesWarning": "看起来您手机上没有谷歌服务框架。这对保护您的隐私而言是个好决定！要接收 FluffyChat 的推送通知，推荐您使用 https://microg.org/ 或 https://unifiedpush.org/。",
+  "noGoogleServicesWarning": "看起来您手机上没有谷歌服务框架。这对保护您的隐私而言是个好决定！要接收 brigadachat 的推送通知，推荐您使用 https://microg.org/ 或 https://unifiedpush.org/。",
   "@noGoogleServicesWarning": {
     "type": "text",
     "placeholders": {}
@@ -1741,7 +1741,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "brigadachat",
   "@title": {
     "description": "Title for the application",
     "type": "text",
@@ -2400,7 +2400,7 @@
       "count": {}
     }
   },
-  "dehydrateShare": "这是私人的 FluffyChat 导出。 确保你不会丢失它并将其保密。",
+  "dehydrateShare": "这是私人的 brigadachat 导出。 确保你不会丢失它并将其保密。",
   "@dehydrateShare": {},
   "dehydrateTor": "TOR 用户：导出会话",
   "@dehydrateTor": {},
@@ -2416,7 +2416,7 @@
   "@dehydrateWarning": {},
   "indexedDbErrorTitle": "私人模式问题",
   "@indexedDbErrorTitle": {},
-  "indexedDbErrorLong": "遗憾的是，默认情况下未在私有模式下启用消息存储。\n请访问\n - about:config\n - set dom.indexedDB.privateBrowsing.enabled to true\n否则，无法运行 FluffyChat。",
+  "indexedDbErrorLong": "遗憾的是，默认情况下未在私有模式下启用消息存储。\n请访问\n - about:config\n - set dom.indexedDB.privateBrowsing.enabled to true\n否则，无法运行 brigadachat。",
   "@indexedDbErrorLong": {},
   "hydrateTorLong": "你上次是否导出 TOR 会话？ 快速导入它并继续聊天。",
   "@hydrateTorLong": {},
@@ -2424,7 +2424,7 @@
   "@user": {},
   "custom": "自定义",
   "@custom": {},
-  "updateAvailable": "FluffyChat 更新可用",
+  "updateAvailable": "brigadachat 更新可用",
   "@updateAvailable": {},
   "updateNow": "在后台开始更新",
   "@updateNow": {},
@@ -2457,13 +2457,13 @@
   "@allSpaces": {},
   "appearOnTop": "显示在其他应用上方",
   "@appearOnTop": {},
-  "appearOnTopDetails": "允许应用显示在顶部（如果你已经将 Fluffychat 设置为呼叫账户，则不需要授予此权限）",
+  "appearOnTopDetails": "允许应用显示在顶部（如果你已经将 brigadachat 设置为呼叫账户，则不需要授予此权限）",
   "@appearOnTopDetails": {},
-  "otherCallingPermissions": "麦克风、摄像头和其他 FluffyChat 权限",
+  "otherCallingPermissions": "麦克风、摄像头和其他 brigadachat 权限",
   "@otherCallingPermissions": {},
   "callingPermissions": "呼叫权限",
   "@callingPermissions": {},
-  "callingAccountDetails": "允许 FluffyChat 使用本机 android 拨号器应用。",
+  "callingAccountDetails": "允许 brigadachat 使用本机 android 拨号器应用。",
   "@callingAccountDetails": {},
   "foregroundServiceRunning": "此通知在前台服务运行时出现。",
   "@foregroundServiceRunning": {},
@@ -2471,7 +2471,7 @@
   "@screenSharingTitle": {},
   "callingAccount": "呼叫账户",
   "@callingAccount": {},
-  "screenSharingDetail": "你正在 FluffyChat 共享屏幕",
+  "screenSharingDetail": "你正在 brigadachat 共享屏幕",
   "@screenSharingDetail": {},
   "numChats": "{number} 个聊天",
   "@numChats": {

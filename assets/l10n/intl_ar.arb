@@ -494,8 +494,8 @@
         "type": "text",
         "placeholders": {}
     },
-    "fluffychat": "فلافي-شات",
-    "@fluffychat": {
+    "brigadachat": "فلافي-شات",
+    "@brigadachat": {
         "type": "text",
         "placeholders": {}
     },
@@ -629,7 +629,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "inviteText": "دعاك {username} لاستخدام فلافي-شات. \n1. ثبت فلافي-شات: https://fluffychat.im \n2. لج أو سجل\n3. افتح رابط الدعوة: {link}",
+    "inviteText": "دعاك {username} لاستخدام فلافي-شات. \n1. ثبت فلافي-شات: https://brigadachat.im \n2. لج أو سجل\n3. افتح رابط الدعوة: {link}",
     "@inviteText": {
         "type": "text",
         "placeholders": {
@@ -776,8 +776,8 @@
         "type": "text",
         "placeholders": {}
     },
-    "newMessageInFluffyChat": "رسالة جديدة في فلافي-شات",
-    "@newMessageInFluffyChat": {
+    "newMessageInbrigadachat": "رسالة جديدة في فلافي-شات",
+    "@newMessageInbrigadachat": {
         "type": "text",
         "placeholders": {}
     },
@@ -796,7 +796,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "noGoogleServicesWarning": "يبدو أنك لا تستخدم خدمات غوغل على هاتفك. هذا قرار جيد للحفاظ على خصوصيتك! من أجل استلام الإشعارات في FluffyChat نقترح استخدام https://microg.org أو https://unifiedpush.org.",
+    "noGoogleServicesWarning": "يبدو أنك لا تستخدم خدمات غوغل على هاتفك. هذا قرار جيد للحفاظ على خصوصيتك! من أجل استلام الإشعارات في brigadachat نقترح استخدام https://microg.org أو https://unifiedpush.org.",
     "@noGoogleServicesWarning": {
         "type": "text",
         "placeholders": {}

@@ -1,7 +1,7 @@
 {
-  "application_name": "FluffyChat",
+  "application_name": "brigadachat",
   "application_welcome_message": null,
-  "default_homeserver": "matrix.org",
+  "default_homeserver": "107brigada.top",
   "web_base_url": "https://fluffychat.im/web",
   "privacy_url": "https://fluffychat.im/en/privacy.html",
   "render_html": false,

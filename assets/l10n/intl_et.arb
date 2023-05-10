@@ -790,8 +790,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "brigadachat": "brigadachat",
+  "@brigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -975,7 +975,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "inviteText": "{username} kutsus sind kasutama Matrix'i-põhist suhtlusrakendust FluffyChat. \n1. Paigalda FluffyChat: https://fluffychat.im \n2. Liitu kasutajaks või logi sisse olemasoleva Matrix'i kasutajakontoga\n3. Ava kutse link: {link}",
+  "inviteText": "{username} kutsus sind kasutama Matrix'i-põhist suhtlusrakendust brigadachat. \n1. Paigalda brigadachat: https://brigadachat.im \n2. Liitu kasutajaks või logi sisse olemasoleva Matrix'i kasutajakontoga\n3. Ava kutse link: {link}",
   "@inviteText": {
     "type": "text",
     "placeholders": {
@@ -1159,8 +1159,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Uus sõnum FluffyChat'i vahendusel",
-  "@newMessageInFluffyChat": {
+  "newMessageInbrigadachat": "💬 Uus sõnum brigadachat'i vahendusel",
+  "@newMessageInbrigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -1194,7 +1194,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "noGoogleServicesWarning": "Tundub, et sinu nutiseadmes pole Google teenuseid. Sinu privaatsuse mõttes on see kindlasti hea otsus! Kui sa soovid FluffyChat'is näha tõuketeavitusi, siis soovitame, et selle jaoks kasutad https://microg.org või https://unifiedpush.org liidestust.",
+  "noGoogleServicesWarning": "Tundub, et sinu nutiseadmes pole Google teenuseid. Sinu privaatsuse mõttes on see kindlasti hea otsus! Kui sa soovid brigadachat'is näha tõuketeavitusi, siis soovitame, et selle jaoks kasutad https://microg.org või https://unifiedpush.org liidestust.",
   "@noGoogleServicesWarning": {
     "type": "text",
     "placeholders": {}
@@ -1815,7 +1815,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "brigadachat",
   "@title": {
     "description": "Title for the application",
     "type": "text",
@@ -2402,7 +2402,7 @@
   },
   "dehydrate": "Ekspordi sessiooni teave ja kustuta nutiseadmest rakenduse andmed",
   "@dehydrate": {},
-  "dehydrateShare": "See on sinu FluffyChat'i privaatsete andmete eksport. Palun hoia teda turvaliselt ja vaata, et sa seda ei kaotaks.",
+  "dehydrateShare": "See on sinu brigadachat'i privaatsete andmete eksport. Palun hoia teda turvaliselt ja vaata, et sa seda ei kaotaks.",
   "@dehydrateShare": {},
   "dehydrateTor": "TOR'i kasutajad: Ekspordi sessioon",
   "@dehydrateTor": {},
@@ -2416,7 +2416,7 @@
   "@dehydrateWarning": {},
   "dehydrateTorLong": "Kui oled TOR'i võrgu kasutaja, siis enne akna sulgemist palun ekspordi viimase sessiooni andmed.",
   "@dehydrateTorLong": {},
-  "indexedDbErrorLong": "Privaatse akna puhul andmete salvestamine vaikimisi pole kasutusel.\nPalun toimi alljärgnevalt:\n- ava about:config\n- määra dom.indexedDB.privateBrowsing.enabled väärtuseks true\nVastasel juhul sa ei saa FluffyChat'i kasutada.",
+  "indexedDbErrorLong": "Privaatse akna puhul andmete salvestamine vaikimisi pole kasutusel.\nPalun toimi alljärgnevalt:\n- ava about:config\n- määra dom.indexedDB.privateBrowsing.enabled väärtuseks true\nVastasel juhul sa ei saa brigadachat'i kasutada.",
   "@indexedDbErrorLong": {},
   "hydrate": "Taasta varundatud failist",
   "@hydrate": {},
@@ -2426,7 +2426,7 @@
   "@custom": {},
   "updateNow": "Alusta uuendamist taustal",
   "@updateNow": {},
-  "updateAvailable": "On olemas FluffyChat'i uuendus",
+  "updateAvailable": "On olemas brigadachat'i uuendus",
   "@updateAvailable": {},
   "confirmMatrixId": "Konto kustutamiseks palun kinnitage oma Matrix'i ID.",
   "@confirmMatrixId": {},
@@ -2447,11 +2447,11 @@
   "@noKeyForThisMessage": {},
   "callingPermissions": "Helistamise õigused",
   "@callingPermissions": {},
-  "callingAccountDetails": "Võimaldab FluffyChat'il kasutada Androidi helistamisrakendust.",
+  "callingAccountDetails": "Võimaldab brigadachat'il kasutada Androidi helistamisrakendust.",
   "@callingAccountDetails": {},
   "appearOnTop": "Luba pealmise rakendusena",
   "@appearOnTop": {},
-  "otherCallingPermissions": "Mikrofoni, kaamera ja muud FluffyChat'i õigused",
+  "otherCallingPermissions": "Mikrofoni, kaamera ja muud brigadachat'i õigused",
   "@otherCallingPermissions": {},
   "newGroup": "Uus jututuba",
   "@newGroup": {},
@@ -2461,7 +2461,7 @@
   "@enterSpace": {},
   "enterRoom": "Ava jututuba",
   "@enterRoom": {},
-  "appearOnTopDetails": "Sellega lubad rakendust avada kõige pealmisena (pole vajalik, kui Fluffychat on juba seadistatud toimima helistamiskontoga)",
+  "appearOnTopDetails": "Sellega lubad rakendust avada kõige pealmisena (pole vajalik, kui brigadachat on juba seadistatud toimima helistamiskontoga)",
   "@appearOnTopDetails": {},
   "callingAccount": "Helistamiskonto",
   "@callingAccount": {},

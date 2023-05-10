@@ -794,8 +794,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "brigadachat": "brigadachat",
+  "@brigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -979,7 +979,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "inviteText": "{username} sizi FluffyChat'e davet etti. \n1. FluffyChat kurun: https://fluffychat.im \n2. Kaydolun veya giriş yapın \n3. Davet bağlantısını açın: {link}",
+  "inviteText": "{username} sizi brigadachat'e davet etti. \n1. brigadachat kurun: https://brigadachat.im \n2. Kaydolun veya giriş yapın \n3. Davet bağlantısını açın: {link}",
   "@inviteText": {
     "type": "text",
     "placeholders": {
@@ -1163,8 +1163,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 FluffyChat'te yeni mesaj",
-  "@newMessageInFluffyChat": {
+  "newMessageInbrigadachat": "💬 brigadachat'te yeni mesaj",
+  "@newMessageInbrigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -1198,7 +1198,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "noGoogleServicesWarning": "Görünüşe göre telefonunuzda Google hizmetleri yok. Bu, gizliliğiniz için iyi bir karar! FluffyChat'te anlık bildirimler almak için https://microg.org/ veya https://unifiedpush.org/ kullanmanızı tavsiye ediyoruz.",
+  "noGoogleServicesWarning": "Görünüşe göre telefonunuzda Google hizmetleri yok. Bu, gizliliğiniz için iyi bir karar! brigadachat'te anlık bildirimler almak için https://microg.org/ veya https://unifiedpush.org/ kullanmanızı tavsiye ediyoruz.",
   "@noGoogleServicesWarning": {
     "type": "text",
     "placeholders": {}
@@ -1819,7 +1819,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "brigadachat",
   "@title": {
     "description": "Title for the application",
     "type": "text",
@@ -2414,17 +2414,17 @@
   "@indexedDbErrorTitle": {},
   "dehydrateWarning": "Bu eylem geri alınamaz. Yedekleme dosyasını güvenli bir şekilde sakladığınızdan emin olun.",
   "@dehydrateWarning": {},
-  "dehydrateShare": "Bu sizin özel FluffyChat dışa aktarımınızdır. Kaybetmediğinizden ve gizli tuttuğunuzdan emin olun.",
+  "dehydrateShare": "Bu sizin özel brigadachat dışa aktarımınızdır. Kaybetmediğinizden ve gizli tuttuğunuzdan emin olun.",
   "@dehydrateShare": {},
   "hydrateTorLong": "TOR'da en son oturumunuzu dışa aktardınız mı? Hızlıca içe aktarın ve sohbete devam edin.",
   "@hydrateTorLong": {},
-  "indexedDbErrorLong": "Mesaj saklama özelliği ne yazık ki öntanımlı olarak gizli modda etkin değildir.\nLütfen\n - about:config sayfasına gidin ve\n - dom.indexedDB.privateBrowsing.enabled seçeneğini true olarak ayarlayın\nAksi takdirde FluffyChat çalıştırılamaz.",
+  "indexedDbErrorLong": "Mesaj saklama özelliği ne yazık ki öntanımlı olarak gizli modda etkin değildir.\nLütfen\n - about:config sayfasına gidin ve\n - dom.indexedDB.privateBrowsing.enabled seçeneğini true olarak ayarlayın\nAksi takdirde brigadachat çalıştırılamaz.",
   "@indexedDbErrorLong": {},
   "user": "Kullanıcı",
   "@user": {},
   "custom": "Özel",
   "@custom": {},
-  "updateAvailable": "FluffyChat güncellemesi var",
+  "updateAvailable": "brigadachat güncellemesi var",
   "@updateAvailable": {},
   "updateNow": "Güncellemeyi arka planda başlat",
   "@updateNow": {},
@@ -2449,7 +2449,7 @@
   "@screenSharingTitle": {},
   "callingPermissions": "Arama izinleri",
   "@callingPermissions": {},
-  "callingAccountDetails": "FluffyChat'in yerel android telefon uygulamasını kullanmasına izin verir.",
+  "callingAccountDetails": "brigadachat'in yerel android telefon uygulamasını kullanmasına izin verir.",
   "@callingAccountDetails": {},
   "appearOnTop": "Üstte görün",
   "@appearOnTop": {},
@@ -2459,13 +2459,13 @@
   "@enterRoom": {},
   "allSpaces": "Tüm alanlar",
   "@allSpaces": {},
-  "otherCallingPermissions": "Mikrofon, kamera ve diğer FluffyChat izinleri",
+  "otherCallingPermissions": "Mikrofon, kamera ve diğer brigadachat izinleri",
   "@otherCallingPermissions": {},
   "foregroundServiceRunning": "Bu bildirim, ön plan hizmeti çalışırken görünür.",
   "@foregroundServiceRunning": {},
   "callingAccount": "Arama hesabı",
   "@callingAccount": {},
-  "appearOnTopDetails": "Uygulamanın üstte görünmesine izin verir (Fluffychat'ı zaten bir arama hesabı olarak ayarladıysanız gerekli değildir)",
+  "appearOnTopDetails": "Uygulamanın üstte görünmesine izin verir (brigadachat'ı zaten bir arama hesabı olarak ayarladıysanız gerekli değildir)",
   "@appearOnTopDetails": {},
   "newGroup": "Yeni grup",
   "@newGroup": {},

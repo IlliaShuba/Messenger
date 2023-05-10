@@ -7,8 +7,8 @@ import 'package:keyboard_shortcuts/keyboard_shortcuts.dart';
 import 'package:matrix/matrix.dart';
 import 'package:vrouter/vrouter.dart';
 
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:brigadachat/widgets/avatar.dart';
+import 'package:brigadachat/widgets/matrix.dart';
 import '../../utils/fluffy_share.dart';
 import 'chat_list.dart';
 
@@ -276,7 +276,7 @@ class ClientChooserButton extends StatelessWidget {
           FluffyShare.share(
             L10n.of(context)!.inviteText(
               Matrix.of(context).client.userID!,
-              'https://matrix.to/#/${Matrix.of(context).client.userID}?client=im.fluffychat',
+              'https://matrix.to/#/${Matrix.of(context).client.userID}?client=im.brigadachat',
             ),
             context,
           );

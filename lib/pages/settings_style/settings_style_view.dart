@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_gen/gen_l10n/l10n.dart';
 
-import 'package:fluffychat/widgets/layouts/max_width_body.dart';
+import 'package:brigadachat/widgets/layouts/max_width_body.dart';
 import '../../config/app_config.dart';
 import '../../widgets/matrix.dart';
 import 'settings_style.dart';

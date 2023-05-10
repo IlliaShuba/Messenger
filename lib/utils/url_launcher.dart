@@ -9,11 +9,11 @@ import 'package:punycode/punycode.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 import 'package:vrouter/vrouter.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/utils/adaptive_bottom_sheet.dart';
-import 'package:fluffychat/widgets/matrix.dart';
-import 'package:fluffychat/widgets/profile_bottom_sheet.dart';
-import 'package:fluffychat/widgets/public_room_bottom_sheet.dart';
+import 'package:brigadachat/config/app_config.dart';
+import 'package:brigadachat/utils/adaptive_bottom_sheet.dart';
+import 'package:brigadachat/widgets/matrix.dart';
+import 'package:brigadachat/widgets/profile_bottom_sheet.dart';
+import 'package:brigadachat/widgets/public_room_bottom_sheet.dart';
 import 'platform_infos.dart';
 
 class UrlLauncher {

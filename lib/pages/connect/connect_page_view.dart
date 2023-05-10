@@ -5,9 +5,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/l10n.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/pages/connect/connect_page.dart';
-import 'package:fluffychat/widgets/layouts/login_scaffold.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:brigadachat/pages/connect/connect_page.dart';
+import 'package:brigadachat/widgets/layouts/login_scaffold.dart';
+import 'package:brigadachat/widgets/matrix.dart';
 import 'sso_button.dart';
 
 class ConnectPageView extends StatelessWidget {

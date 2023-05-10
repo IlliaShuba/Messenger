@@ -12,17 +12,17 @@ import 'package:path_provider/path_provider.dart';
 import 'package:video_player/video_player.dart';
 import 'package:vrouter/vrouter.dart';
 
-import 'package:fluffychat/pages/story/story_view.dart';
-import 'package:fluffychat/utils/adaptive_bottom_sheet.dart';
-import 'package:fluffychat/utils/date_time_extension.dart';
-import 'package:fluffychat/utils/localized_exception_extension.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/client_stories_extension.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/ios_badge_client_extension.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/utils/room_status_extension.dart';
-import 'package:fluffychat/utils/story_theme_data.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:brigadachat/pages/story/story_view.dart';
+import 'package:brigadachat/utils/adaptive_bottom_sheet.dart';
+import 'package:brigadachat/utils/date_time_extension.dart';
+import 'package:brigadachat/utils/localized_exception_extension.dart';
+import 'package:brigadachat/utils/matrix_sdk_extensions/client_stories_extension.dart';
+import 'package:brigadachat/utils/matrix_sdk_extensions/ios_badge_client_extension.dart';
+import 'package:brigadachat/utils/platform_infos.dart';
+import 'package:brigadachat/utils/room_status_extension.dart';
+import 'package:brigadachat/utils/story_theme_data.dart';
+import 'package:brigadachat/widgets/avatar.dart';
+import 'package:brigadachat/widgets/matrix.dart';
 
 class StoryPage extends StatefulWidget {
   const StoryPage({Key? key}) : super(key: key);

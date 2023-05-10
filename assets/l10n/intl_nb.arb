@@ -633,8 +633,8 @@
         "type": "text",
         "placeholders": {}
     },
-    "fluffychat": "FluffyChat",
-    "@fluffychat": {
+    "brigadachat": "brigadachat",
+    "@brigadachat": {
         "type": "text",
         "placeholders": {}
     },
@@ -813,7 +813,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "inviteText": "{username} har invitert deg til FluffyChat. \n1. Installer FluffyChat: https://fluffychat.im \n2. Registrer deg eller logg inn \n3. Åpne invitasjonslenken: {link}",
+    "inviteText": "{username} har invitert deg til brigadachat. \n1. Installer brigadachat: https://brigadachat.im \n2. Registrer deg eller logg inn \n3. Åpne invitasjonslenken: {link}",
     "@inviteText": {
         "type": "text",
         "placeholders": {
@@ -980,8 +980,8 @@
         "type": "text",
         "placeholders": {}
     },
-    "newMessageInFluffyChat": "Ny melding i FluffyChat",
-    "@newMessageInFluffyChat": {
+    "newMessageInbrigadachat": "Ny melding i brigadachat",
+    "@newMessageInbrigadachat": {
         "type": "text",
         "placeholders": {}
     },
@@ -1005,7 +1005,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "noGoogleServicesWarning": "Bruk https://microg.org/ for å få Google-tjenester (uten at det går ut over personvernet) for å få push-merknader i FluffyChat:",
+    "noGoogleServicesWarning": "Bruk https://microg.org/ for å få Google-tjenester (uten at det går ut over personvernet) for å få push-merknader i brigadachat:",
     "@noGoogleServicesWarning": {
         "type": "text",
         "placeholders": {}
@@ -1504,7 +1504,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "title": "FluffyChat",
+    "title": "brigadachat",
     "@title": {
         "description": "Title for the application",
         "type": "text",

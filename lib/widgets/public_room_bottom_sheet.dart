@@ -6,9 +6,9 @@ import 'package:matrix/matrix.dart';
 import 'package:matrix_link_text/link_text.dart';
 import 'package:vrouter/vrouter.dart';
 
-import 'package:fluffychat/utils/url_launcher.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:brigadachat/utils/url_launcher.dart';
+import 'package:brigadachat/widgets/avatar.dart';
+import 'package:brigadachat/widgets/matrix.dart';
 import '../utils/localized_exception_extension.dart';
 
 class PublicRoomBottomSheet extends StatelessWidget {

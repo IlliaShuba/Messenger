@@ -1,6 +1,6 @@
-# FluffyChat AppImage
+# brigadachat AppImage
 
-FluffyChat is provided as AppImage too. To Download, visit fluffychat.im.
+brigadachat is provided as AppImage too. To Download, visit brigadachat.im.
 
 ## Building
 
@@ -10,15 +10,15 @@ FluffyChat is provided as AppImage too. To Download, visit fluffychat.im.
 flutter build linux
 
 # copy binaries to appimage dir
-cp -r build/linux/{x64,arm64}/release/bundle appimage/FluffyChat.AppDir
+cp -r build/linux/{x64,arm64}/release/bundle appimage/brigadachat.AppDir
 cd appimage
 
 # prepare AppImage files
-cp FluffyChat.desktop FluffyChat.AppDir/
-mkdir -p FluffyChat.AppDir/usr/share/icons
-cp ../assets/logo.svg FluffyChat.AppDir/fluffychat.svg
-cp AppRun FluffyChat.AppDir
+cp brigadachat.desktop brigadachat.AppDir/
+mkdir -p brigadachat.AppDir/usr/share/icons
+cp ../assets/logo.svg brigadachat.AppDir/brigadachat.svg
+cp AppRun brigadachat.AppDir
 
 # build the AppImage
-appimagetool FluffyChat.AppDir
+appimagetool brigadachat.AppDir
 ```

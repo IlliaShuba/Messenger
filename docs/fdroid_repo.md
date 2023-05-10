@@ -7,7 +7,7 @@ are also published on it.
 
 Easiest way to add the Repository is to either **scan the QR-Code** or if you are on your phone **directly click it**.
 
-<a href="fdroidrepos://fluffychat.im/repo/stable/repo/?fingerprint=5EDB5C4395B2F2D9BA682F6A1D275170CCE5365A6FA27D2220EA8D52A6D95F07" >
+<a href="fdroidrepos://brigadachat.im/repo/stable/repo/?fingerprint=5EDB5C4395B2F2D9BA682F6A1D275170CCE5365A6FA27D2220EA8D52A6D95F07" >
     <img src="qr-stable.svg" width="300" height="300"/>
 </a>
 
@@ -22,7 +22,7 @@ If this still isn't working follow the next steps:
 2. Go to the `Settings` Tab in the Bottom bar
 3. Click the `Repositories` Action
 4. Click on the plus sign at the top.
-5. Fill in `https://fluffychat.im/repo/stable/repo/` into the top field and `5EDB5C4395B2F2D9BA682F6A1D275170CCE5365A6FA27D2220EA8D52A6D95F07` in the bottom field.
+5. Fill in `https://brigadachat.im/repo/stable/repo/` into the top field and `5EDB5C4395B2F2D9BA682F6A1D275170CCE5365A6FA27D2220EA8D52A6D95F07` in the bottom field.
 
 ## What is the fingerprint?
 
@@ -34,7 +34,7 @@ The fingerprint of the Repository is: `5EDB5C4395B2F2D9BA682F6A1D275170CCE5365A6
 
 Easiest way to add the Repository is to either **scan the QR-Code** or if you are on your phone **directly click** it.
 
-<a href="fdroidrepos://fluffychat.im/repo/nightly/repo/?fingerprint=21A469657300576478B623DF99D8EB889A80BCD939ACA60A4074741BEAEC397D" >
+<a href="fdroidrepos://brigadachat.im/repo/nightly/repo/?fingerprint=21A469657300576478B623DF99D8EB889A80BCD939ACA60A4074741BEAEC397D" >
     <img src="qr-nightly.svg" width="300" height="300"/>
 </a>
 
@@ -49,7 +49,7 @@ If this still isn't working follow the next steps:
 2. Go to the `Settings` Tab in the Bottom bar
 3. Click the `Repositories` Action
 4. Click on the plus sign at the top.
-5. Fill in `https://fluffychat.im/repo/nightly/repo/` into the top field and `21A469657300576478B623DF99D8EB889A80BCD939ACA60A4074741BEAEC397D` in the bottom field.
+5. Fill in `https://brigadachat.im/repo/nightly/repo/` into the top field and `21A469657300576478B623DF99D8EB889A80BCD939ACA60A4074741BEAEC397D` in the bottom field.
 
 ## What is the fingerprint?
 

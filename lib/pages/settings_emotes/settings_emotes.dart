@@ -8,7 +8,7 @@ import 'package:future_loading_dialog/future_loading_dialog.dart';
 import 'package:matrix/matrix.dart';
 import 'package:vrouter/vrouter.dart';
 
-import 'package:fluffychat/utils/client_manager.dart';
+import 'package:brigadachat/utils/client_manager.dart';
 import '../../widgets/matrix.dart';
 import 'settings_emotes_view.dart';
 

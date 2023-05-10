@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_gen/gen_l10n/l10n.dart';
 
-import 'package:fluffychat/widgets/layouts/login_scaffold.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:brigadachat/widgets/layouts/login_scaffold.dart';
+import 'package:brigadachat/widgets/matrix.dart';
 import '../../utils/utils.dart';
 import 'login.dart';
 

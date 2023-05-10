@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:matrix/matrix.dart';
 
 abstract class AppConfig {
-  static String _applicationName = 'FluffyChat';
+  static String _applicationName = 'brigadachat';
   static String get applicationName => _applicationName;
   static String? _applicationWelcomeMessage;
   static String? get applicationWelcomeMessage => _applicationWelcomeMessage;
@@ -21,19 +21,19 @@ abstract class AppConfig {
   static const Color primaryColorLight = Colors.lightGreen/*Color(0xFFCCBDEA)*/;
   static const Color secondaryColor = Color(0xFF41a2bc);
   static String _privacyUrl =
-      'https://gitlab.com/famedly/fluffychat/-/blob/main/PRIVACY.md';
+      'https://gitlab.com/famedly/brigadachat/-/blob/main/PRIVACY.md';
   static String get privacyUrl => _privacyUrl;
   static const String enablePushTutorial =
-      'https://gitlab.com/famedly/fluffychat/-/wikis/Push-Notifications-without-Google-Services';
+      'https://gitlab.com/famedly/brigadachat/-/wikis/Push-Notifications-without-Google-Services';
   static const String encryptionTutorial =
-      'https://gitlab.com/famedly/fluffychat/-/wikis/How-to-use-end-to-end-encryption-in-FluffyChat';
-  static const String appId = 'im.fluffychat.FluffyChat';
-  static const String appOpenUrlScheme = 'im.fluffychat';
-  static String _webBaseUrl = 'https://fluffychat.im/web';
+      'https://gitlab.com/famedly/brigadachat/-/wikis/How-to-use-end-to-end-encryption-in-brigadachat';
+  static const String appId = 'im.brigadachat.brigadachat';
+  static const String appOpenUrlScheme = 'im.brigadachat';
+  static String _webBaseUrl = 'https://brigadachat.im/web';
   static String get webBaseUrl => _webBaseUrl;
-  static const String sourceCodeUrl = 'https://gitlab.com/famedly/fluffychat';
+  static const String sourceCodeUrl = 'https://gitlab.com/famedly/brigadachat';
   static const String supportUrl =
-      'https://gitlab.com/famedly/fluffychat/issues';
+      'https://gitlab.com/famedly/brigadachat/issues';
   static const bool enableSentry = true;
   static const String sentryDns =
       'https://8591d0d863b646feb4f3dda7e5dcab38@o256755.ingest.sentry.io/5243143';
@@ -49,15 +49,15 @@ abstract class AppConfig {
   static const bool hideTypingUsernames = false;
   static const bool hideAllStateEvents = false;
   static const String inviteLinkPrefix = 'https://matrix.to/#/';
-  static const String deepLinkPrefix = 'im.fluffychat://chat/';
+  static const String deepLinkPrefix = 'im.brigadachat://chat/';
   static const String schemePrefix = 'matrix:';
-  static const String pushNotificationsChannelId = 'fluffychat_push';
-  static const String pushNotificationsChannelName = 'FluffyChat push channel';
+  static const String pushNotificationsChannelId = 'brigadachat_push';
+  static const String pushNotificationsChannelName = 'brigadachat push channel';
   static const String pushNotificationsChannelDescription =
-      'Push notifications for FluffyChat';
-  static const String pushNotificationsAppId = 'chat.fluffy.fluffychat';
+      'Push notifications for brigadachat';
+  static const String pushNotificationsAppId = 'chat.fluffy.brigadachat';
   static const String pushNotificationsGatewayUrl =
-      'https://push.fluffychat.im/_matrix/push/v1/notify';
+      'https://push.brigadachat.im/_matrix/push/v1/notify';
   static const String pushNotificationsPusherFormat = 'event_id_only';
   static const String emojiFontName = 'Noto Emoji';
   static const String emojiFontUrl =

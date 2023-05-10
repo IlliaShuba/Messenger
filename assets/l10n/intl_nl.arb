@@ -793,8 +793,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "brigadachat": "brigadachat",
+  "@brigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -978,7 +978,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "inviteText": "{username} heeft je uitgenodigd voor FluffyChat.\n1. Installeer FluffyChat: https://fluffychat.im\n2. Registreer of log in\n3. Open deze uitnodigingslink: {link}",
+  "inviteText": "{username} heeft je uitgenodigd voor brigadachat.\n1. Installeer brigadachat: https://brigadachat.im\n2. Registreer of log in\n3. Open deze uitnodigingslink: {link}",
   "@inviteText": {
     "type": "text",
     "placeholders": {
@@ -1162,8 +1162,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Nieuw bericht in FluffyChat",
-  "@newMessageInFluffyChat": {
+  "newMessageInbrigadachat": "💬 Nieuw bericht in brigadachat",
+  "@newMessageInbrigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -1197,7 +1197,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "noGoogleServicesWarning": "Het lijkt erop dat je geen Google-services op je telefoon hebt. Dat is een goede beslissing voor je privacy! Om pushmeldingen in FluffyChat te ontvangen raden we je https://microg.org/ of https://unifiedpush.org aan.",
+  "noGoogleServicesWarning": "Het lijkt erop dat je geen Google-services op je telefoon hebt. Dat is een goede beslissing voor je privacy! Om pushmeldingen in brigadachat te ontvangen raden we je https://microg.org/ of https://unifiedpush.org aan.",
   "@noGoogleServicesWarning": {
     "type": "text",
     "placeholders": {}
@@ -1818,7 +1818,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "brigadachat",
   "@title": {
     "description": "Title for the application",
     "type": "text",
@@ -2393,7 +2393,7 @@
   "@storeInSecureStorageDescription": {},
   "storeSecurlyOnThisDevice": "Veilig opslaan op dit apparaat",
   "@storeSecurlyOnThisDevice": {},
-  "dehydrateShare": "Dit is jouw persoonlijke FluffyChat export. Zorg ervoor dat je het niet verliest en houd het privé.",
+  "dehydrateShare": "Dit is jouw persoonlijke brigadachat export. Zorg ervoor dat je het niet verliest en houd het privé.",
   "@dehydrateShare": {},
   "dehydrate": "Sessie exporteren en apparaat wissen",
   "@dehydrate": {},
@@ -2411,7 +2411,7 @@
   "@hydrate": {},
   "indexedDbErrorTitle": "Problemen met privémodus",
   "@indexedDbErrorTitle": {},
-  "indexedDbErrorLong": "Het opslaan van berichten is helaas niet standaard ingeschakeld in de privémodus.\nBezoek alsjeblieft\n - about:config\n - stel dom.indexedDB.privateBrowsing.enabled in op true\nAnders is het niet mogelijk om FluffyChat op te starten.",
+  "indexedDbErrorLong": "Het opslaan van berichten is helaas niet standaard ingeschakeld in de privémodus.\nBezoek alsjeblieft\n - about:config\n - stel dom.indexedDB.privateBrowsing.enabled in op true\nAnders is het niet mogelijk om brigadachat op te starten.",
   "@indexedDbErrorLong": {},
   "countFiles": "{count} bestanden",
   "@countFiles": {
@@ -2423,7 +2423,7 @@
   "@user": {},
   "custom": "Aangepast",
   "@custom": {},
-  "updateAvailable": "FluffyChat-update beschikbaar",
+  "updateAvailable": "brigadachat-update beschikbaar",
   "@updateAvailable": {},
   "updateNow": "Update op de achtergrond starten",
   "@updateNow": {},
@@ -2458,13 +2458,13 @@
   "@callingPermissions": {},
   "callingAccount": "Telefoon-account",
   "@callingAccount": {},
-  "callingAccountDetails": "Hiermee kan FluffyChat de Android telefoon-app gebruiken.",
+  "callingAccountDetails": "Hiermee kan brigadachat de Android telefoon-app gebruiken.",
   "@callingAccountDetails": {},
   "appearOnTop": "Bovenaan verschijnen",
   "@appearOnTop": {},
-  "appearOnTopDetails": "Laat de app bovenaan verschijnen (niet nodig als je FluffyChat al hebt ingesteld als een belaccount)",
+  "appearOnTopDetails": "Laat de app bovenaan verschijnen (niet nodig als je brigadachat al hebt ingesteld als een belaccount)",
   "@appearOnTopDetails": {},
-  "otherCallingPermissions": "Microfoon, camera en andere FluffyChat-rechten",
+  "otherCallingPermissions": "Microfoon, camera en andere brigadachat-rechten",
   "@otherCallingPermissions": {},
   "newGroup": "Nieuwe groep",
   "@newGroup": {},

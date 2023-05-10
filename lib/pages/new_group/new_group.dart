@@ -4,8 +4,8 @@ import 'package:future_loading_dialog/future_loading_dialog.dart';
 import 'package:matrix/matrix.dart' as sdk;
 import 'package:vrouter/vrouter.dart';
 
-import 'package:fluffychat/pages/new_group/new_group_view.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:brigadachat/pages/new_group/new_group_view.dart';
+import 'package:brigadachat/widgets/matrix.dart';
 
 class NewGroup extends StatefulWidget {
   const NewGroup({Key? key}) : super(key: key);

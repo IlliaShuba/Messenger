@@ -763,8 +763,8 @@
         "type": "text",
         "placeholders": {}
     },
-    "fluffychat": "FluffyChat",
-    "@fluffychat": {
+    "brigadachat": "brigadachat",
+    "@brigadachat": {
         "type": "text",
         "placeholders": {}
     },
@@ -938,7 +938,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "inviteText": "{username} convidou-te para o FluffyChat.\n1. Instala o FluffyChat: https://fluffychat.im\n2. Regista-te ou inicia sessão.\n3. Abre a ligação de convite: {link}",
+    "inviteText": "{username} convidou-te para o brigadachat.\n1. Instala o brigadachat: https://brigadachat.im\n2. Regista-te ou inicia sessão.\n3. Abre a ligação de convite: {link}",
     "@inviteText": {
         "type": "text",
         "placeholders": {
@@ -1117,8 +1117,8 @@
         "type": "text",
         "placeholders": {}
     },
-    "newMessageInFluffyChat": "Nova mensagem no FluffyChat",
-    "@newMessageInFluffyChat": {
+    "newMessageInbrigadachat": "Nova mensagem no brigadachat",
+    "@newMessageInbrigadachat": {
         "type": "text",
         "placeholders": {}
     },
@@ -1152,7 +1152,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "noGoogleServicesWarning": "Parece que não tens nenhuns serviços da Google no seu telemóvel. É uma boa decisão para a sua privacidade! Para receber notificações instantâneas no FluffyChat, recomendamos que uses https://microg.org/ ou https://unifiedpush.org/.",
+    "noGoogleServicesWarning": "Parece que não tens nenhuns serviços da Google no seu telemóvel. É uma boa decisão para a sua privacidade! Para receber notificações instantâneas no brigadachat, recomendamos que uses https://microg.org/ ou https://unifiedpush.org/.",
     "@noGoogleServicesWarning": {
         "type": "text",
         "placeholders": {}
@@ -1681,7 +1681,7 @@
             "username": {}
         }
     },
-    "updateAvailable": "Atualização do FluffyChat disponível",
+    "updateAvailable": "Atualização do brigadachat disponível",
     "@updateAvailable": {},
     "updateNow": "Iniciar atualização me segundo plano",
     "@updateNow": {},
@@ -1709,7 +1709,7 @@
     "@dehydrate": {},
     "dehydrateWarning": "Esta ação não pode ser revertida. Assegura-te que guardas bem a cópia de segurança.",
     "@dehydrateWarning": {},
-    "dehydrateShare": "Esta é a tua exportação privada do FluffyChat. Assegura-te que não a perdes e que a manténs privada.",
+    "dehydrateShare": "Esta é a tua exportação privada do brigadachat. Assegura-te que não a perdes e que a manténs privada.",
     "@dehydrateShare": {},
     "hydrateTorLong": "Exportaste a tua sessão na última vez que estiveste no TOR? Importa-a rapidamente e continua a conversar.",
     "@hydrateTorLong": {},

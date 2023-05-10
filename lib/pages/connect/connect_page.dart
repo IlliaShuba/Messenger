@@ -10,11 +10,11 @@ import 'package:matrix/matrix.dart';
 import 'package:universal_html/html.dart' as html;
 import 'package:vrouter/vrouter.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/pages/connect/connect_page_view.dart';
-import 'package:fluffychat/utils/localized_exception_extension.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:brigadachat/config/app_config.dart';
+import 'package:brigadachat/pages/connect/connect_page_view.dart';
+import 'package:brigadachat/utils/localized_exception_extension.dart';
+import 'package:brigadachat/utils/platform_infos.dart';
+import 'package:brigadachat/widgets/matrix.dart';
 
 class ConnectPage extends StatefulWidget {
   const ConnectPage({Key? key}) : super(key: key);

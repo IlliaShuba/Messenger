@@ -968,7 +968,7 @@
     "@commandInvalid": {
         "type": "text"
     },
-    "updateAvailable": "Un actualisament de FluffyChat es disponibil",
+    "updateAvailable": "Un actualisament de brigadachat es disponibil",
     "@updateAvailable": {},
     "yourUserId": "Vor ID de usator:",
     "@yourUserId": {},
@@ -1155,8 +1155,8 @@
     },
     "homeserver": "Hem-servitor",
     "@homeserver": {},
-    "fluffychat": "FluffyChat",
-    "@fluffychat": {
+    "brigadachat": "brigadachat",
+    "@brigadachat": {
         "type": "text",
         "placeholders": {}
     },
@@ -1202,7 +1202,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "title": "FluffyChat",
+    "title": "brigadachat",
     "@title": {
         "description": "Title for the application",
         "type": "text",

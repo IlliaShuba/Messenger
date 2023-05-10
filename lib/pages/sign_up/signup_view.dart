@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_gen/gen_l10n/l10n.dart';
 
-import 'package:fluffychat/widgets/layouts/login_scaffold.dart';
+import 'package:brigadachat/widgets/layouts/login_scaffold.dart';
 import 'signup.dart';
 
 class SignupPageView extends StatelessWidget {

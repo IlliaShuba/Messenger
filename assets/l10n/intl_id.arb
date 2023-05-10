@@ -99,7 +99,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "inviteText": "{username} mengundang kamu ke FluffyChat. \n1. Instal FluffyChat: https://fluffychat.im \n2. Daftar atau masuk \n3. Buka tautan undangan: {link}",
+  "inviteText": "{username} mengundang kamu ke brigadachat. \n1. Instal brigadachat: https://brigadachat.im \n2. Daftar atau masuk \n3. Buka tautan undangan: {link}",
   "@inviteText": {
     "type": "text",
     "placeholders": {
@@ -257,8 +257,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "brigadachat": "brigadachat",
+  "@brigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -922,7 +922,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "noGoogleServicesWarning": "Sepertinya kamu tidak memiliki layanan Google di ponselmu. Keputusan yang baik untuk privasimu! Untuk menerima pemberitahuan push di FluffyChat, sebaiknya kamu menggunakan https://microg.org/ atau https://unifiedpush.org/.",
+  "noGoogleServicesWarning": "Sepertinya kamu tidak memiliki layanan Google di ponselmu. Keputusan yang baik untuk privasimu! Untuk menerima pemberitahuan push di brigadachat, sebaiknya kamu menggunakan https://microg.org/ atau https://unifiedpush.org/.",
   "@noGoogleServicesWarning": {
     "type": "text",
     "placeholders": {}
@@ -947,8 +947,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Pesan baru di FluffyChat",
-  "@newMessageInFluffyChat": {
+  "newMessageInbrigadachat": "💬 Pesan baru di brigadachat",
+  "@newMessageInbrigadachat": {
     "type": "text",
     "placeholders": {}
   },
@@ -1364,7 +1364,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "brigadachat",
   "@title": {
     "description": "Title for the application",
     "type": "text",
@@ -2399,13 +2399,13 @@
       "count": {}
     }
   },
-  "dehydrateShare": "Ini adalah ekspor FluffyChat privat kamu. Pastikan kamu tidak menghilangkannya dan tetap rahasia.",
+  "dehydrateShare": "Ini adalah ekspor brigadachat privat kamu. Pastikan kamu tidak menghilangkannya dan tetap rahasia.",
   "@dehydrateShare": {},
   "hydrate": "Pulihkan dari file cadangan",
   "@hydrate": {},
   "indexedDbErrorTitle": "Masalah dengan mode privat",
   "@indexedDbErrorTitle": {},
-  "indexedDbErrorLong": "Penyimpanan pesan sayangnya tidak diaktifkan dalam mode privat secara default.\nMohon kunjungi\n- about:config\n- tetapkan dom.indexedDB.privateBrowsing.enabled ke true\nJika tidak ditetapkan, FluffyChat tidak akan dapat dijalankan.",
+  "indexedDbErrorLong": "Penyimpanan pesan sayangnya tidak diaktifkan dalam mode privat secara default.\nMohon kunjungi\n- about:config\n- tetapkan dom.indexedDB.privateBrowsing.enabled ke true\nJika tidak ditetapkan, brigadachat tidak akan dapat dijalankan.",
   "@indexedDbErrorLong": {},
   "dehydrate": "Ekspor sesi dan bersihkan perangkat",
   "@dehydrate": {},
@@ -2421,7 +2421,7 @@
   "@hydrateTor": {},
   "custom": "Kustom",
   "@custom": {},
-  "updateAvailable": "Tersedia pembaruan FluffyChat",
+  "updateAvailable": "Tersedia pembaruan brigadachat",
   "@updateAvailable": {},
   "updateNow": "Mulai memperbarui di latar belakang",
   "@updateNow": {},
@@ -2442,9 +2442,9 @@
   "@commandHint_markasgroup": {},
   "screenSharingTitle": "membagikan layar",
   "@screenSharingTitle": {},
-  "appearOnTopDetails": "Memperbolehkan aplikasi untuk ditampilkan di atas (tidak dibutuhkan jika kamu memiliki FluffyChat ditetapkan sebagai akun pemanggilan)",
+  "appearOnTopDetails": "Memperbolehkan aplikasi untuk ditampilkan di atas (tidak dibutuhkan jika kamu memiliki brigadachat ditetapkan sebagai akun pemanggilan)",
   "@appearOnTopDetails": {},
-  "callingAccountDetails": "Memperbolehkan FluffyChat untuk menggunakan aplikasi penelepon Android bawaan.",
+  "callingAccountDetails": "Memperbolehkan brigadachat untuk menggunakan aplikasi penelepon Android bawaan.",
   "@callingAccountDetails": {},
   "noKeyForThisMessage": "Hal ini bisa terjadi jika pesan dikirim sebelum kamu masuk ke akunmu di perangkat ini.\n\nMungkin juga pengirim telah memblokir perangkatmu atau ada yang tidak beres dengan koneksi internet.\n\nApakah kamu bisa membaca pesan pada sesi lain? Maka kamu bisa mentransfer pesan dari sesi tersebut! Buka Pengaturan > Perangkat dan pastikan bahwa perangkat Anda telah ditandatangani secara silang. Ketika kamu membuka ruangan di lain waktu dan kedua sesi berada di latar depan, kunci akan ditransmisikan secara otomatis.\n\nApakah kamu tidak mau kehilangan kunci saat keluar atau berpindah perangkat? Pastikan bahwa kamu telah mengaktifkan cadangan obrolan dalam pengaturan.",
   "@noKeyForThisMessage": {},
@@ -2456,7 +2456,7 @@
   "@appearOnTop": {},
   "callingAccount": "Akun pemanggilan",
   "@callingAccount": {},
-  "otherCallingPermissions": "Mikrofon, kamera dan perizinan FluffyChat lainnya",
+  "otherCallingPermissions": "Mikrofon, kamera dan perizinan brigadachat lainnya",
   "@otherCallingPermissions": {},
   "whyIsThisMessageEncrypted": "Mengapa pesan ini tidak bisa dibaca?",
   "@whyIsThisMessageEncrypted": {},
@@ -2470,7 +2470,7 @@
   "@enterRoom": {},
   "allSpaces": "Semua space",
   "@allSpaces": {},
-  "screenSharingDetail": "Kamu membagikan layarmu di FluffyChat",
+  "screenSharingDetail": "Kamu membagikan layarmu di brigadachat",
   "@screenSharingDetail": {},
   "numChats": "{number} obrolan",
   "@numChats": {

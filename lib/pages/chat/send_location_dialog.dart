@@ -8,8 +8,8 @@ import 'package:future_loading_dialog/future_loading_dialog.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/pages/chat/events/map_bubble.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
+import 'package:brigadachat/pages/chat/events/map_bubble.dart';
+import 'package:brigadachat/utils/platform_infos.dart';
 
 class SendLocationDialog extends StatefulWidget {
   final Room room;
