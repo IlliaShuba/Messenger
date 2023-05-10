@@ -27,7 +27,7 @@ class ChatEncryptionSettingsView extends StatelessWidget {
           leading: IconButton(
             icon: const Icon(Icons.close_outlined),
             onPressed: () =>
-                VRouter.of(context).toSegments(['rooms', controller.roomId!]),
+                VRouter.of(context).toSegments(['room', controller.roomId!]),
           ),
           title: Text(L10n.of(context)!.endToEndEncryption),
           actions: [
