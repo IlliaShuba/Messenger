@@ -26,6 +26,14 @@ class LoginController extends State<Login> {
   String? passwordError;
   bool loading = false;
   bool showPassword = false;
+  bool isEmpty = true;
+
+  validate() {
+    setState(() {
+      isEmpty =
+          usernameController.text.isEmpty || passwordController.text.isEmpty;
+    });
+  }
 
   void toggleShowPassword() =>
       setState(() => showPassword = !loading && !showPassword);

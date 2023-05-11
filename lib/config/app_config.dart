@@ -17,7 +17,7 @@ abstract class AppConfig {
   static const double messageFontSize = 15.75;
   static const bool allowOtherHomeservers = false;
   static const bool enableRegistration = true;
-  static const Color primaryColor = Colors.green/*Color(0xFF5625BA)*/;
+  static const Color primaryColor = Color.fromRGBO(117, 112, 78, 1);
   static const Color primaryColorLight = Colors.lightGreen/*Color(0xFFCCBDEA)*/;
   static const Color secondaryColor = Color(0xFF41a2bc);
   static String _privacyUrl =
