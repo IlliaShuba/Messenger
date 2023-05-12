@@ -91,6 +91,7 @@ dependencies:
   wakelock: ^0.6.1+1
   webrtc_interface: ^1.0.10
 
+
 dev_dependencies:
   dart_code_metrics: ^4.10.1
   flutter_lints: ^2.0.1
@@ -103,16 +104,14 @@ dev_dependencies:
   msix: ^3.6.2
   translations_cleaner: ^0.0.5
 
+flutter_icons:
+  android: "launcher_icon"
+  image_path: "assets/logo.png"
+
 flutter_native_splash:
   color: "#ffffff"
   color_dark: "#000000"
   image: "assets/favicon.png"
-
-flutter_icons:
-  android: "launcher_icon"
-  ios: true
-  image_path: "assets/favicon.png"
-  adaptive_icon_foreground: "assets/favicon.png"
 
 flutter:
   generate: true

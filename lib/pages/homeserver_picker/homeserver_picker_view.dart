@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 import 'package:flutter_gen/gen_l10n/l10n.dart';
@@ -8,6 +10,7 @@ import 'package:brigadachat/widgets/layouts/login_scaffold.dart';
 import '../../config/themes.dart';
 import 'homeserver_app_bar.dart';
 import 'homeserver_picker.dart';
+import '../../utils/utils.dart';
 
 class HomeserverPickerView extends StatelessWidget {
   final HomeserverPickerController controller;
@@ -16,145 +19,142 @@ class HomeserverPickerView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final benchmarkResults = controller.benchmarkResults;
-    return LoginScaffold(
-      body: SafeArea(
-        child: Column(
-          children: [
-            Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: HomeserverAppBar(controller: controller),
-            ),
-            // display a prominent banner to import session for TOR browser
-            // users. This feature is just some UX sugar as TOR users are
-            // usually forced to logout as TOR browser is non-persistent
-            AnimatedContainer(
-              height: controller.isTorBrowser ? 64 : 0,
-              duration: FluffyThemes.animationDuration,
-              curve: FluffyThemes.animationCurve,
-              clipBehavior: Clip.hardEdge,
-              decoration: const BoxDecoration(),
-              child: Material(
-                clipBehavior: Clip.hardEdge,
-                borderRadius:
-                    const BorderRadius.vertical(bottom: Radius.circular(8)),
-                color: Theme.of(context).colorScheme.surface,
-                child: ListTile(
-                  leading: const Icon(Icons.vpn_key),
-                  title: Text(L10n.of(context)!.hydrateTor),
-                  subtitle: Text(L10n.of(context)!.hydrateTorLong),
-                  trailing: const Icon(Icons.chevron_right_outlined),
-                  onTap: controller.restoreBackup,
+    double baseWidth = 360;
+    double fem = MediaQuery.of(context).size.width / baseWidth;
+    double ffem = fem * 0.97;
+
+    return Scaffold(
+      body: SizedBox(
+        width: double.infinity,
+        child: Container(
+          // welcomepagelightR8R (2:3)
+          padding: EdgeInsets.fromLTRB(30*fem, 81*fem, 30*fem, 87*fem),
+          width: double.infinity,
+          decoration: BoxDecoration (
+            color: const Color(0xffffffff),
+            borderRadius: BorderRadius.circular(30*fem),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Container(
+                // Atd (9:24)
+                margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 28*fem),
+                padding: EdgeInsets.fromLTRB(18*fem, 28.74*fem, 18*fem, 22*fem),
+                width: double.infinity,
+                decoration: BoxDecoration (
+                  color: const Color(0x72af9e2c),
+                  borderRadius: BorderRadius.circular(20*fem),
                 ),
-              ),
-            ),
-            Expanded(
-              child: controller.displayServerList
-                  ? ListView(
+                child: ClipRect(
+                  child: BackdropFilter(
+                    filter: ImageFilter.blur (
+                      sigmaX: 10*fem,
+                      sigmaY: 10*fem,
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
-                        if (controller.displayServerList)
-                          Padding(
-                            padding: const EdgeInsets.all(12.0),
-                            child: Material(
-                              borderRadius:
-                                  BorderRadius.circular(AppConfig.borderRadius),
-                              color: Theme.of(context)
-                                  .colorScheme
-                                  .onInverseSurface,
-                              clipBehavior: Clip.hardEdge,
-                              child: benchmarkResults == null
-                                  ? const Center(
-                                      child: Padding(
-                                        padding: EdgeInsets.all(12.0),
-                                        child: CircularProgressIndicator
-                                            .adaptive(),
-                                      ),
-                                    )
-                                  : Column(
-                                      children: controller.filteredHomeservers
-                                          .map(
-                                            (server) => ListTile(
-                                              trailing: IconButton(
-                                                icon: const Icon(
-                                                  Icons.info_outlined,
-                                                  color: Colors.black,
-                                                ),
-                                                onPressed: () => controller
-                                                    .showServerInfo(server),
-                                              ),
-                                              onTap: () => controller.setServer(
-                                                server.homeserver.baseUrl.host,
-                                              ),
-                                              title: Text(
-                                                server.homeserver.baseUrl.host,
-                                                style: const TextStyle(
-                                                  color: Colors.black,
-                                                ),
-                                              ),
-                                              subtitle: Text(
-                                                server.homeserver.description ??
-                                                    '',
-                                                style: TextStyle(
-                                                  color: Colors.grey.shade700,
-                                                ),
-                                              ),
-                                            ),
-                                          )
-                                          .toList(),
-                                    ),
+                        Container(
+                          // dark107brigada2bDF (9:38)
+                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0.24*fem, 15.43*fem),
+                          width: 148.37*fem,
+                          height: 174.83*fem,
+                          child: Image.asset(
+                            'assets/dark107brigada-2.png',
+                            width: 148.37*fem,
+                            height: 174.83*fem,
+                          ),
+                        ),
+                        Container(
+                          // fyo (6:12)
+                          constraints: BoxConstraints (
+                            maxWidth: 264*fem,
+                          ),
+                          child: Text(
+                            '107 окрема бригада Сил територіальної оборони Буковини\n',
+                            textAlign: TextAlign.center,
+                            style: SafeGoogleFont (
+                              'Inter',
+                              fontSize: 14*ffem,
+                              fontWeight: FontWeight.w800,
+                              height: 1.2102272851*ffem/fem,
+                              letterSpacing: 0.98*fem,
+                              color: const Color(0xff75704e),
                             ),
                           ),
-                      ],
-                    )
-                  : Container(
-                      alignment: Alignment.topCenter,
-                      child: Image.asset(
-                        'assets/banner.png',
-                        filterQuality: FilterQuality.medium,
-                      ),
-                    ),
-            ),
-            SafeArea(
-              child: Container(
-                padding: const EdgeInsets.all(12),
-                width: double.infinity,
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    TextButton(
-                      onPressed: () => launchUrlString(AppConfig.privacyUrl),
-                      child: Text(L10n.of(context)!.privacy),
-                    ),
-                    TextButton(
-                      onPressed: controller.restoreBackup,
-                      child: Text(L10n.of(context)!.hydrate),
-                    ),
-                    Hero(
-                      tag: 'loginButton',
-                      child: ElevatedButton.icon(
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor:
-                              Theme.of(context).colorScheme.primary,
-                          foregroundColor:
-                              Theme.of(context).colorScheme.onPrimary,
                         ),
-                        onPressed: controller.isLoading
-                            ? null
-                            : controller.checkHomeserverAction,
-                        icon: const Icon(Icons.start_outlined),
-                        label: controller.isLoading
-                            ? const LinearProgressIndicator()
-                            : Text(L10n.of(context)!.letsStart),
-                      ),
+                      ],
                     ),
-                  ],
+                  ),
                 ),
               ),
-            ),
-          ],
+              Center(
+                // gP7 (9:20)
+                child: Container(
+                  margin: EdgeInsets.fromLTRB(1*fem, 0*fem, 0*fem, 143*fem),
+                  constraints: BoxConstraints (
+                    maxWidth: 263*fem,
+                  ),
+                  child: Text(
+                    'ТЕРИТОРІАЛЬНА ОБОРОНА БУКОВИНИ\nГОТОВІ ДО СПРОТИВУ',
+                    textAlign: TextAlign.center,
+                    style: SafeGoogleFont (
+                      'Inter',
+                      fontSize: 15*ffem,
+                      fontWeight: FontWeight.w800,
+                      height: 1.2102272034*ffem/fem,
+                      letterSpacing: 1.05*fem,
+                      color: const Color(0xff3c371c),
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(
+                // AxV (9:23)
+                width: double.infinity,
+                height: 42*fem,
+                child: ElevatedButton.icon(
+                  onPressed: controller.isLoading
+                      ? null
+                      : controller.checkHomeserverAction,
+                  style:ElevatedButton.styleFrom(
+                    padding: EdgeInsets.fromLTRB(86*fem, 9*fem, 81*fem, 9*fem),
+                    backgroundColor: const Color(0xff75704e),
+                    elevation: 6.0,
+                  ),
+                  icon:  Image.asset('assets/primeng-icons-v500.png'),
+                  label:Text(
+                    // 8RT (7:17)
+                    'РОЗПОЧАТИ',
+                    style: SafeGoogleFont (
+                      'Inter',
+                      fontSize: 15*ffem,
+                      fontWeight: FontWeight.w600,
+                      height: 1.2102272034*ffem/fem,
+                      letterSpacing: 0.45*fem,
+                      color: const Color(0xffffffff),
+                    ),
+                  ),
+                )
+                /*Container(
+                  // startTRo (12:1044)
+                  padding: EdgeInsets.fromLTRB(4.25*fem, 3*fem, 0*fem, 3*fem),
+                  width: double.infinity,
+                  height: double.infinity,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+
+                    ],
+                  ),
+                ),
+              ),*/
+          ),
+         ]
         ),
       ),
+    ),
     );
   }
 }
