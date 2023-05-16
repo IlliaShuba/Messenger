@@ -86,6 +86,7 @@ class LoginController extends State<Login> {
             password: passwordController.text,
             initialDeviceDisplayName: PlatformInfos.clientName,
           );
+
     } on MatrixException catch (exception) {
       setState(() => passwordError = exception.errorMessage);
       return setState(() => loading = false);
