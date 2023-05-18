@@ -1,3 +1,6 @@
+import 'dart:io';
+
+import 'package:file_picker/file_picker.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -93,6 +96,17 @@ class BootstrapDialogState extends State<BootstrapDialog> {
     if (key == null) return;
     _recoveryKeyTextEditingController.text = key;
   }
+
+  Future<String?> loadRecoveryKeyFromFile() async {
+    final result = await FilePicker.platform.pickFiles(type: FileType.any);
+    if (result != null && result.files.isNotEmpty) {
+      final fileBytes = await File(result.files.single.path!).readAsBytes();
+      final key = String.fromCharCodes(fileBytes);
+      return key;
+    }
+    return null;
+  }
+
 
   @override
   Widget build(BuildContext context) {
@@ -284,6 +298,21 @@ class BootstrapDialogState extends State<BootstrapDialog> {
                       ),
                     ),
                     const SizedBox(height: 16),
+                    ElevatedButton.icon(
+                      onPressed: () async {
+                        String? text = await loadRecoveryKeyFromFile();
+                        _recoveryKeyTextEditingController.text = text!;
+                      },
+                      style: ElevatedButton.styleFrom(
+                        foregroundColor:
+                        Theme.of(context).colorScheme.onPrimary,
+                        backgroundColor: Theme.of(context).primaryColor,
+                      ),
+                      icon: _recoveryKeyInputLoading
+                          ? const CircularProgressIndicator.adaptive()
+                          : const Icon(Icons.file_download),
+                      label: Text(L10n.of(context)!.downloadFile),
+                    ),
                     ElevatedButton.icon(
                       style: ElevatedButton.styleFrom(
                         foregroundColor:
