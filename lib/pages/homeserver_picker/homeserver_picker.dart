@@ -6,10 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:adaptive_dialog/adaptive_dialog.dart';
 import 'package:collection/collection.dart';
 import 'package:file_picker/file_picker.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_app_lock/flutter_app_lock.dart';
 import 'package:flutter_gen/gen_l10n/l10n.dart';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:future_loading_dialog/future_loading_dialog.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:matrix/matrix.dart';
@@ -21,7 +18,6 @@ import 'package:brigadachat/pages/homeserver_picker/homeserver_bottom_sheet.dart
 import 'package:brigadachat/pages/homeserver_picker/homeserver_picker_view.dart';
 import 'package:brigadachat/utils/adaptive_bottom_sheet.dart';
 import 'package:brigadachat/widgets/matrix.dart';
-import '../../config/setting_keys.dart';
 import '../../utils/localized_exception_extension.dart';
 
 import 'package:brigadachat/utils/tor_stub.dart'
@@ -156,9 +152,9 @@ class HomeserverPickerController extends State<HomeserverPicker> {
         matrix.loginRegistrationSupported = e.requireAdditionalAuthentication;
       }
 
-
       if (!ssoSupported && matrix.loginRegistrationSupported == false) {
-        await checkLockKey();
+        // Server does not support SSO or registration. We can skip to login page:
+        VRouter.of(context).to('login');
       } else {
         VRouter.of(context).to('connect');
       }
@@ -168,48 +164,6 @@ class HomeserverPickerController extends State<HomeserverPicker> {
       if (mounted) {
         setState(() => isLoading = false);
       }
-    }
-  }
-
-  Future<void> checkLockKey() async {
-    final currentLock =
-    await const FlutterSecureStorage().read(key: SettingKeys.appLockKey);
-    if (currentLock?.isEmpty ?? true) {
-      final newLock = await showTextInputDialog(
-        useRootNavigator: false,
-        context: context,
-        title: L10n.of(context)!.pleaseChooseAPasscode,
-        message: L10n.of(context)!.pleaseEnter4Digits,
-        cancelLabel: L10n.of(context)!.cancel,
-        textFields: [
-          DialogTextField(
-            validator: (text) {
-              if (text!.isEmpty ||
-                  (text.length == 4 && int.tryParse(text)! >= 0)) {
-                return null;
-              }
-              return L10n.of(context)!.pleaseEnter4Digits;
-            },
-            keyboardType: TextInputType.number,
-            obscureText: true,
-            maxLines: 1,
-            minLines: 1,
-          )
-        ],
-      );
-      if (newLock != null) {
-        await const FlutterSecureStorage()
-            .write(key: SettingKeys.appLockKey, value: newLock.single);
-        if (newLock.single.isEmpty) {
-          checkLockKey();
-        } else {
-          AppLock.of(context)!.enable();
-          VRouter.of(context).to('login');
-        }
-      }
-    }
-    else{
-      VRouter.of(context).to('login');
     }
   }
 
@@ -224,10 +178,6 @@ class HomeserverPickerController extends State<HomeserverPicker> {
     homeserverFocusNode.addListener(_updateFocus);
     _checkTorBrowser();
     super.initState();
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.portraitUp,
-      DeviceOrientation.portraitDown,
-    ]);
   }
 
   @override

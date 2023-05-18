@@ -8,8 +8,6 @@ import 'package:brigadachat/pages/chat_list/chat_list.dart';
 import 'package:brigadachat/pages/chat_list/chat_list_item.dart';
 import 'package:brigadachat/pages/chat_list/search_title.dart';
 import 'package:brigadachat/pages/chat_list/space_view.dart';
-import 'package:brigadachat/pages/chat_list/start_chat_fab.dart';
-import 'package:brigadachat/pages/chat_list/stories_header.dart';
 import 'package:brigadachat/utils/adaptive_bottom_sheet.dart';
 import 'package:brigadachat/utils/matrix_sdk_extensions/client_stories_extension.dart';
 import 'package:brigadachat/utils/matrix_sdk_extensions/matrix_locals.dart';
@@ -161,11 +159,6 @@ class ChatListViewBody extends StatelessWidget {
                             icon: const Icon(Icons.camera_alt_outlined),
                           ),
                         ],
-                        if (displayStoriesHeader)
-                          StoriesHeader(
-                            key: const Key('stories_header'),
-                            filter: controller.searchController.text,
-                          ),
                         const ConnectionStatusHeader(),
                         AnimatedContainer(
                           height: controller.isTorBrowser ? 64 : 0,

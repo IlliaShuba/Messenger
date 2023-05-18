@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'package:vrouter/vrouter.dart';
 
-import 'package:brigadachat/pages/add_story/add_story.dart';
 import 'package:brigadachat/pages/archive/archive.dart';
 import 'package:brigadachat/pages/chat/chat.dart';
 import 'package:brigadachat/pages/chat_details/chat_details.dart';
@@ -25,10 +24,7 @@ import 'package:brigadachat/pages/settings_ignore_list/settings_ignore_list.dart
 import 'package:brigadachat/pages/settings_multiple_emotes/settings_multiple_emotes.dart';
 import 'package:brigadachat/pages/settings_notifications/settings_notifications.dart';
 import 'package:brigadachat/pages/settings_security/settings_security.dart';
-import 'package:brigadachat/pages/settings_stories/settings_stories.dart';
 import 'package:brigadachat/pages/settings_style/settings_style.dart';
-import 'package:brigadachat/pages/sign_up/signup.dart';
-import 'package:brigadachat/pages/story/story_page.dart';
 import 'package:brigadachat/widgets/layouts/empty_page.dart';
 import 'package:brigadachat/widgets/layouts/loading_view.dart';
 import 'package:brigadachat/widgets/layouts/side_view_layout.dart';
@@ -51,20 +47,6 @@ class AppRoutes {
           path: '/rooms',
           widget: const ChatList(),
           stackedRoutes: [
-            VWidget(
-              path: '/stories/create',
-              widget: const AddStoryPage(),
-            ),
-            VWidget(
-              path: '/stories/:roomid',
-              widget: const StoryPage(),
-              stackedRoutes: [
-                VWidget(
-                  path: 'share',
-                  widget: const AddStoryPage(),
-                ),
-              ],
-            ),
             VWidget(
               path: '/spaces/:roomid',
               widget: const ChatDetails(),
@@ -134,22 +116,6 @@ class AppRoutes {
               widget: const EmptyPage(),
               buildTransition: _fadeTransition,
               stackedRoutes: [
-                VWidget(
-                  path: '/stories/create',
-                  buildTransition: _fadeTransition,
-                  widget: const AddStoryPage(),
-                ),
-                VWidget(
-                  path: '/stories/:roomid',
-                  buildTransition: _fadeTransition,
-                  widget: const StoryPage(),
-                  stackedRoutes: [
-                    VWidget(
-                      path: 'share',
-                      widget: const AddStoryPage(),
-                    ),
-                  ],
-                ),
                 VWidget(
                   path: '/spaces/:roomid',
                   widget: const ChatDetails(),
@@ -276,11 +242,6 @@ class AppRoutes {
                   widget: const Login(),
                   buildTransition: _fadeTransition,
                 ),
-                VWidget(
-                  path: 'signup',
-                  widget: const SignupPage(),
-                  buildTransition: _fadeTransition,
-                ),
               ],
             ),
             VWidget(
@@ -368,11 +329,6 @@ class AppRoutes {
                   widget: const Login(),
                   buildTransition: _fadeTransition,
                 ),
-                VWidget(
-                  path: 'signup',
-                  widget: const SignupPage(),
-                  buildTransition: _fadeTransition,
-                ),
               ],
             ),
           ],
@@ -382,11 +338,6 @@ class AppRoutes {
           widget: const SettingsSecurity(),
           buildTransition: _dynamicTransition,
           stackedRoutes: [
-            VWidget(
-              path: 'stories',
-              widget: const SettingsStories(),
-              buildTransition: _dynamicTransition,
-            ),
             VWidget(
               path: 'ignorelist',
               widget: const SettingsIgnoreList(),

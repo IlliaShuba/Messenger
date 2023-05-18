@@ -24,12 +24,6 @@ class SettingsSecurityView extends StatelessWidget {
           child: Column(
             children: [
               ListTile(
-                leading: const Icon(Icons.camera_outlined),
-                trailing: const Icon(Icons.chevron_right_outlined),
-                title: Text(L10n.of(context)!.whoCanSeeMyStories),
-                onTap: () => VRouter.of(context).to('stories'),
-              ),
-              ListTile(
                 leading: const Icon(Icons.block_outlined),
                 trailing: const Icon(Icons.chevron_right_outlined),
                 title: Text(L10n.of(context)!.ignoredUsers),
@@ -42,12 +36,6 @@ class SettingsSecurityView extends StatelessWidget {
                   L10n.of(context)!.changePassword,
                 ),
                 onTap: controller.changePasswordAccountAction,
-              ),
-              ListTile(
-                leading: const Icon(Icons.mail_outlined),
-                trailing: const Icon(Icons.chevron_right_outlined),
-                title: Text(L10n.of(context)!.passwordRecovery),
-                onTap: () => VRouter.of(context).to('3pid'),
               ),
               if (Matrix.of(context).client.encryption != null) ...{
                 const Divider(thickness: 1),
