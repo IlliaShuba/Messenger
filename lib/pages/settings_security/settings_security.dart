@@ -1,6 +1,8 @@
 import 'dart:convert';
+import 'dart:io';
 import 'dart:typed_data';
 
+import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 
 import 'package:adaptive_dialog/adaptive_dialog.dart';
@@ -14,6 +16,8 @@ import 'package:matrix/matrix.dart';
 import 'package:brigadachat/config/setting_keys.dart';
 import 'package:brigadachat/utils/matrix_sdk_extensions/matrix_file_extension.dart';
 import 'package:brigadachat/widgets/matrix.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:permission_handler/permission_handler.dart';
 import '../bootstrap/bootstrap_dialog.dart';
 import 'settings_security_view.dart';
 
@@ -58,6 +62,36 @@ class SettingsSecurityController extends State<SettingsSecurity> {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text(L10n.of(context)!.passwordHasBeenChanged)),
       );
+    }
+  }
+
+  Future<void> createNewCrossSigningKey( [String? passphrase]) async {
+    try {
+      if(Platform.isAndroid) {
+        if (await Permission.storage.request().isGranted) {
+          const fileName = 'security-key.txt';
+          final activeClient = Matrix.of(context).client;
+          final key = await activeClient.encryption?.ssss.createKey(passphrase);
+
+          final result = await FilePicker.platform.getDirectoryPath();
+          if (result != null) {
+            final directory = Directory(result);
+            final file = File('${directory.path}/$fileName');
+            await file.writeAsString(key?.keyId ?? '');
+            print('Файл успішно збережено! Шлях: ${file.path}');
+          } else {
+            print('Не вибрано жодної папки.');
+          }
+        } else {
+          print('Дозвіл на запис в файлову систему не надано.');
+        }
+      }
+      else if(Platform.isIOS) {
+        // Handle iOS file saving here
+      }
+    } catch (e) {
+      String errorMessage = 'Помилка при збереженні файлу: $e';
+      print(errorMessage);
     }
   }
 

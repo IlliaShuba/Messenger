@@ -49,6 +49,14 @@ class SettingsSecurityView extends StatelessWidget {
                 title: Text(L10n.of(context)!.passwordRecovery),
                 onTap: () => VRouter.of(context).to('3pid'),
               ),
+              if( !Matrix.of(context).client.encryption!.crossSigning.enabled )...{
+                ListTile(
+                  leading: const Icon(Icons.lock_outlined),
+                  trailing: const Icon(Icons.chevron_right_outlined),
+                  title: Text(L10n.of(context)!.recoveryKey),
+                  onTap: () => controller.createNewCrossSigningKey(),
+                ),
+              },
               if (Matrix.of(context).client.encryption != null) ...{
                 const Divider(thickness: 1),
                 if (PlatformInfos.isMobile)

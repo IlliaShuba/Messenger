@@ -313,6 +313,7 @@ class BootstrapDialogState extends State<BootstrapDialog> {
                           : const Icon(Icons.file_download),
                       label: Text(L10n.of(context)!.downloadFile),
                     ),
+                    const SizedBox(height: 16),
                     ElevatedButton.icon(
                       style: ElevatedButton.styleFrom(
                         foregroundColor:
